@@ -13,13 +13,12 @@ uClient.close()
 #parse html
 page_soup = soup(page_html, "html.parser")
 
-#grab each section 
-containers = page_soup.findAll("li")
+#grab each directory 
+directory = page_soup.findAll("li")
 
 #for each subdirectory, scrap the contact info of each business
-for container in containers: 
-    new_url = root_url + container.a["href"]
+for subdirectory in directory: 
+    new_url = root_url + subdirectory.a["href"]
     deeper(new_url, 0)
 
-    
 

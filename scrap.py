@@ -7,42 +7,48 @@ def deeper(url, int):
     page_html = uClient.read()
     uClient.close()
 
-    #parse html
+    #parse page html
     page_soup = soup(page_html, "html.parser")
 
-    #grab each section 
+    #grab each listing from the page 
     listings = page_soup.findAll("div",{"class": "businessListing"})
 
     #for each subdirectory, scrap the contact info of each business
     for listing in listings: 
-        detail = listing.findAll("span", {"class": "valValue"})
-        more_details = listing.find("div", {"class": "floatRightDiv"})
-        even_more_details = more_details.findAll("a", {"class": "medium"})
+        span = listing.findAll("span", {"class": "valValue"})
+        floating_div = listing.find("div", {"class": "floatRightDiv"})
+        quick_info = floating_div.findAll("a", {"class": "medium"})
 
-        if len(detail) == 3 and len(even_more_details) == 3:
+        if len(span) == 3 and len(quick_info) == 3: #only scrap listings that have all information
             business_name = listing.b.a.text
-            business_address = detail[0].text
-            business_number = detail[1].text
-            business_contact = detail[2].text
+            business_address = span[0].text
+            business_number = span[1].text
+            business_contact = span[2].text
+            business_email = quick_info[1]["href"]
+            business_website = quick_info[2]["href"]
+            print(business_name)   
 
-            business_email = even_more_details[1]["href"]
-            business_website = even_more_details[2]["href"]
-            print(business_email) 
-    
+    #after scraping the root page, check if there are any deeper indexes 
+
     tr = page_soup.table.table.findAll("tr")
-    td = tr[2].tr.findAll("td")
+    td = tr[2].tr.findAll("td") 
+    
+    #if this page has a navigation bar, then it has multiple pages
+    if(len(td) > 1): 
 
-    if(len(td) > 1):
+        table = page_soup.findAll("table")
+        arrow_img  = table[2].tr.span.findAll("img") #check the second tr and grab the next arrow img tag
+        check_next = arrow_img[1]["src"] #grab the img tag source 
 
-        con = page_soup.findAll("table")
-        c = con[2].tr.span.findAll("img")
-        check_next = c[1]["src"]
-
-        if(check_next == "images/zevie_fwdbut.gif"):
-            if(int == 0):
+        if(check_next == "images/zevie_fwdbut.gif"): #if the img is the next page button, run deeper on the next page 
+            if(int == 0): 
+                #the first page starts at both 1 and 0, so add two to get to the second page
                 page_num = int + 2 
             else:
-                page_num = int + 1
+                #if it's not the first page, just add by one 
+                page_num = int + 1 
+
+            #call deeper recursively until there are no deeper pages
             num_string = str(page_num) 
             new_url = url + "&page=" + num_string 
             deeper(new_url, page_num)
