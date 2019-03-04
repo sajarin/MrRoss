@@ -13,6 +13,12 @@ uClient.close()
 #parse html
 page_soup = soup(page_html, "html.parser")
 
+#create a file  called leads.csv and append the headers to the first row 
+filename = "leads.csv"
+f = open(filename, "a+")
+headers = "Business, Address, Contact, Number, Email, Website\n"
+f.write(headers)
+
 #grab each directory 
 directory = page_soup.findAll("li")
 

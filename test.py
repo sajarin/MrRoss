@@ -12,7 +12,6 @@ def deeper(url, num):
     #grab each listing from the page 
     listings = page_soup.findAll("div",{"class": "businessListing"})
 
-    # create a file called leads.csv and append data to the file. If the file does not exist, create the file
     filename = "leads.csv"
     f = open(filename, "a+")
 
@@ -23,7 +22,6 @@ def deeper(url, num):
         quick_info = floating_div.findAll("a", {"class": "medium"})
 
         if len(span) == 3 and len(quick_info) == 3: #only scrap listings that have all information
-            #if there are any attribute errors, when writing these variables, simply ignore them and continue on
             try:
                 business_name = listing.b.a.text
                 business_address = span[0].text
@@ -32,14 +30,10 @@ def deeper(url, num):
                 business_email = quick_info[2]["href"]
                 business_website = quick_info[1]["href"]
                 print(business_website)
-
-                #write all of the variables for each business into leads.csv
                 f.write(business_name.replace(",", " ") + "," + business_address.replace(",", " ") + "," + business_contact.replace(",", " ") + 
-                "," + business_number + "," + business_email + "," + business_website + "\n")
+                             "," + business_number + "," + business_email + "," + business_website + "\n")
             except AttributeError:
                 pass
-
-    #after scraping the root page, check if there are any deeper indexes 
 
     tr = page_soup.table.table.findAll("tr")
     td = tr[2].tr.findAll("td") 
@@ -65,5 +59,8 @@ def deeper(url, num):
             #call deeper recursively until there are no deeper pages
             deeper(new_url, page_num)
 
+url = "https://www.chamber.nyc/directory_cat.asp?catid=216"
+num = 0
+deeper(url, num)
 
 
