@@ -1,30 +1,51 @@
 from urllib.request import urlopen as uReq 
 from bs4 import BeautifulSoup as soup
-from scrap import deeper
+from certified import deeper
+from member import page
+
+while True:
+    try:
+        user_in = int(input("Type 0 for scraping Member Directory or 1 for scraping Certified Business Directory \n"))
+    except ValueError: 
+        print("Sorry invalid input")
+        continue
+    else:
+        break
 
 root_url = "https://www.chamber.nyc/"
-my_url = root_url + "directory.asp"
+if (user_in == 0):
+    my_url = root_url + "directory.php?search=&page="
 
-#opening up a connection and parsing the page 
-uClient = uReq(my_url)
-page_html = uClient.read()
-uClient.close()
+    filename = "member.csv"
+    f = open(filename, "a+")
+    headers = "Business, Address, Contact, Number, Email, Website\n"
+    f.write(headers)
+    for x in range(1,68):
+        page(my_url, x)
+if (user_in == 1):
 
-#parse html
-page_soup = soup(page_html, "html.parser")
+    my_url = root_url + "directory.asp"
 
-#create a file  called leads.csv and append the headers to the first row 
-filename = "leads.csv"
-f = open(filename, "a+")
-headers = "Business, Address, Contact, Number, Email, Website\n"
-f.write(headers)
+    #opening up a connection and parsing the page 
+    uClient = uReq(my_url)
+    page_html = uClient.read()
+    uClient.close()
 
-#grab each directory 
-directory = page_soup.findAll("li")
+    #parse html
+    page_soup = soup(page_html, "html.parser")
 
-#for each subdirectory, scrap the contact info of each business
-for subdirectory in directory: 
-    new_url = root_url + subdirectory.a["href"]
-    deeper(new_url, 0)
+    #create a file  called leads.csv and append the headers to the first row 
+    filename = "certified.csv"
+    f = open(filename, "a+")
+    headers = "Business, Address, Contact, Number, Email, Website\n"
+    f.write(headers)
+
+    #grab each directory 
+    directory = page_soup.findAll("li")
+
+    #for each subdirectory, scrap the contact info of each business
+    for subdirectory in directory: 
+        new_url = root_url + subdirectory.a["href"]
+        deeper(new_url, 0)
 
 
