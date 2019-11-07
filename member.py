@@ -22,7 +22,7 @@ def page(url, num):
 
     #create a file to store scraped values 
     filename = "member.csv"
-    f = open(filename, "a+")
+    f = open(filename, "a+", encoding="utf-8")
 
 
     #for each business on the page grab their name, number, email, website, address and business owner

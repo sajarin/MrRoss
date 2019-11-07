@@ -17,7 +17,7 @@ if (user_in == 0):
     my_url = root_url + "directory.php?search=&page="
 
     filename = "member.csv"
-    f = open(filename, "a+")
+    f = open(filename, "a+", encoding="utf-8")
     headers = "Business, Address, Contact, Number, Email, Website\n"
     f.write(headers)
     for x in range(1,68):
