@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-def load_html(file_path):
+def load_html(file_path: str) -> BeautifulSoup:
     try: 
         with open(file_path, 'r') as f:
             raw_html = f.read()
@@ -9,7 +9,7 @@ def load_html(file_path):
     except OSError as err:
         print("OSError: {0}".format(err))
 
-def parse_html(page_soup):
+def parse_html(page_soup: BeautifulSoup) -> str:
     listings = page_soup.findAll("div", {"class": "business"}) 
     for listing in listings: 
         business_info = listing.div.findAll("span") 
