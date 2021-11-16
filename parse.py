@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 def load_html(file_path: str) -> BeautifulSoup:
     try: 
-        with open(file_path, 'r') as f:
+        with open(file_path, 'r', encoding='utf-8') as f:
             raw_html = f.read()
             soup = BeautifulSoup(raw_html, 'lxml')
             return soup
@@ -11,6 +11,7 @@ def load_html(file_path: str) -> BeautifulSoup:
 
 def parse_html(page_soup: BeautifulSoup) -> str:
     listings = page_soup.findAll("div", {"class": "business"}) 
+    extracted_data = ''
     for listing in listings: 
         business_info = listing.div.findAll("span") 
         business_name = listing.h3.text
@@ -20,9 +21,12 @@ def parse_html(page_soup: BeautifulSoup) -> str:
         business_website = business_info[3].text[9:]
         business_address = business_info[4].text[9:]
         
-        return (business_name.replace(",", " ") + "," + 
+        extracted_data = extracted_data + (
+                business_name.replace(",", " ") + "," + 
                 business_address.replace(",", " ") + "," + 
                 business_contact.replace(",", " ") + "," + 
                 business_number + "," + 
                 business_email + "," + 
-                business_website + "\n")
+                business_website + "\n"
+        )
+    return extracted_data
