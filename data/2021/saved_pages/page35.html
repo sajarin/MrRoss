@@ -1,0 +1,1605 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greater New York Chamber of Commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css?t=1637032436"/>
+    <link rel="stylesheet" href="css/global_styling.css?t=1637032436"/>
+    <link rel="stylesheet" href="css/navbar.css?t=1637032436"/>
+    <link rel="stylesheet" href="css/event_bar.css?t=1637032436"/>
+    <link rel="stylesheet" href="css/footer.css?t=1637032436"/>
+    <link rel="stylesheet" href="css/directory.css?t=1637032436"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121896854-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121896854-1');
+    </script>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<div class="navigation" id="nav">
+  <a href="./membership_application.php" class="active">
+    Join The Chamber
+  </a>
+  <a href="./calendar.php">
+    Events
+  </a>
+  <a href="./directory.php">
+    Business Directory
+  </a>
+  <a href="./join.php">
+    Benefits
+  </a>
+  <a href="./news.php">
+    News
+  </a>
+  <a class="navigation__item navigation__item_bgred" href="./bulletin_board.php">
+    COVID-19 Business Resources
+  </a>
+  <a href="./jobs.php">
+    Job Listings
+  </a>
+  <a href="./profiles.php">
+    Member Profiles
+  </a>
+  <a href="./tv_watch.php">
+    Chamber TV
+  </a>
+  <a href="./board.php">
+    About Us
+  </a>
+  <a href="./contact.php">
+    Contact Us
+  </a>
+  <a href="https://visitor.r20.constantcontact.com/manage/optin?v=001kkqO0FxDKZRRxT3tTJHPTwiaTTbEIELDwsv2rFK1UQGdzHjGL91cnsY8moIs8p5BCsv7DgOP7iyR0vpIN5n9k58345gJY9VizlyKZqi-0OGDt9gDxpq4AtYH7fX0KIKyg1gXFEVJtib71SJsPGIUl28BaEhHTtjy">
+    Receive Chamber E-mails
+  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="material-icons">menu</i>
+  </a>
+</div>
+
+<div id="header-image" style="background-image:url('./wallpaper-web.jpg');">
+  <table style="width:100%;background: rgba(0, 0, 0, 0.5);">
+    <tr>
+      <td align="center" valign="middle" style="width:15%;">
+        <a href="/"><img id="icon" src="chamber_logo.png" /></a>
+      </td>
+      <td valign="middle">
+        <div id="navbar_title">
+          Greater New York Chamber of Commerce <br />
+          212-CHAMBER
+        </div>
+      </td>
+      <td align="center">
+        <a href="https://www.facebook.com/NYChamber/"><img src="icons/facebook.png" /></a>
+        <a href="https://www.instagram.com/nychamber/" target="_blank"><img src="icons/instagram.png" /></a>
+        <a href="https://www.linkedin.com/company/greater-new-york-chamber-of-commerce/?viewAsMember=true"><img src="icons/linkedin.png" /></a>
+        <a href="https://twitter.com/nychamber?lang=en"><img src="icons/twitter.png" /></a>
+        <br />
+        <a class="button" href="./visit_nyc.php">Visit NYC!</a>
+        <br />
+        <br />
+      </td>
+    </tr>
+  </table>
+
+  <!-- <script>
+    function display() {
+      $(".nav-dropdown-content").toggle();
+    }
+  </script> -->
+
+  <script>
+      function myFunction() {
+          var x = document.getElementById("nav");
+          if (x.className === "navigation") {
+              x.className += " responsive";
+          } else {
+              x.className = "navigation";
+          }
+      }
+  </script>
+</div>
+<!-- Events Topbar -->
+<div id="events_bar">
+
+    <table cellspacing="0">
+        <tr>
+            <th align="center" class="head-button" style="padding: 20px;text-align:center;"
+                onclick="top.window.location.href='./calendar.php'">
+                UPCOMING EVENTS
+            </th>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=983'">
+                    Open House Networking on Clubhouse                    <div>
+                        November 15, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=976'">
+                    Online Networking Coffee                     <div>
+                        November 16, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=984'">
+                    Online Networking Cocktail Reception                    <div>
+                        November 18, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=985'">
+                    Online Networking Coffee                    <div>
+                        November 23, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=962'">
+                    Holiday Networking Party                    <div>
+                        December 2, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=986'">
+                    How to Use LinkedIn & Grow Your Business                    <div>
+                        December 10, 2021                    </div>
+                </td>
+                    </tr>
+    </table>
+
+</div> <!-- events_bar -->
+
+<div class="content">
+    <h4 style="text-align: center;margin-top:25px; font-weight: bold;">
+        Chamber Member Business Directory
+    </h4>
+    <div id="alphabetize">
+        <a class='button' href='directory.php?cat=all'>Alphabetically Listed</a> <br/>
+        Or Search By Letter:
+        <a class='alph_btn' href='directory.php?l=a'>a</a><a class='alph_btn' href='directory.php?l=b'>b</a><a class='alph_btn' href='directory.php?l=c'>c</a><a class='alph_btn' href='directory.php?l=d'>d</a><a class='alph_btn' href='directory.php?l=e'>e</a><a class='alph_btn' href='directory.php?l=f'>f</a><a class='alph_btn' href='directory.php?l=g'>g</a><a class='alph_btn' href='directory.php?l=h'>h</a><a class='alph_btn' href='directory.php?l=i'>i</a><a class='alph_btn' href='directory.php?l=j'>j</a><a class='alph_btn' href='directory.php?l=k'>k</a><a class='alph_btn' href='directory.php?l=l'>l</a><a class='alph_btn' href='directory.php?l=m'>m</a><a class='alph_btn' href='directory.php?l=n'>n</a><a class='alph_btn' href='directory.php?l=o'>o</a><a class='alph_btn' href='directory.php?l=p'>p</a><a class='alph_btn' href='directory.php?l=q'>q</a><a class='alph_btn' href='directory.php?l=r'>r</a><a class='alph_btn' href='directory.php?l=s'>s</a><a class='alph_btn' href='directory.php?l=t'>t</a><a class='alph_btn' href='directory.php?l=u'>u</a><a class='alph_btn' href='directory.php?l=v'>v</a><a class='alph_btn' href='directory.php?l=w'>w</a><a class='alph_btn' href='directory.php?l=x'>x</a><a class='alph_btn' href='directory.php?l=y'>y</a><a class='alph_btn' href='directory.php?l=z'>z</a>        <a class='alph_btn' href='directory.php?l=num'>0-9</a>
+    </div>
+    <div id="search_bar">
+        Or <br/>
+        <form action="directory_url_creator.php" method="post">
+            <select id="category" name="category">
+                <option value="all" selected>
+                    Search By Category
+                </option>
+                <option value='1'>
+          Accessories
+        </option><option value='1669'>
+          Accommodation
+        </option><option value='967'>
+          Accounting Services
+        </option><option value='1536'>
+          Acting Schools
+        </option><option value='975'>
+          Advertising
+        </option><option value='11'>
+          Airlines
+        </option><option value='1502'>
+          Amusement Park
+        </option><option value='15'>
+          Apparel
+        </option><option value='1638'>
+          Apps
+        </option><option value='1212'>
+          Aquarium
+        </option><option value='902'>
+          Architects
+        </option><option value='368'>
+          Art Gallery
+        </option><option value='1756'>
+          Artificial Intelligence
+        </option><option value='21'>
+          Associations
+        </option><option value='1739'>
+          Auto Services
+        </option><option value='1373'>
+          Automobile Dealer
+        </option><option value='1705'>
+          Automobile Parts
+        </option><option value='1790'>
+          Baby Products
+        </option><option value='1803'>
+          Bakeries
+        </option><option value='30'>
+          Banks
+        </option><option value='1448'>
+          Banquet Facilities
+        </option><option value='621'>
+          Barter
+        </option><option value='31'>
+          Beauty
+        </option><option value='905'>
+          Bed & Breakfast
+        </option><option value='1794'>
+          Bedding
+        </option><option value='33'>
+          Benefits Consulting
+        </option><option value='709'>
+          Beverages
+        </option><option value='1609'>
+          BID - Business Improvement Development
+        </option><option value='382'>
+          Bookkeeping Services
+        </option><option value='1792'>
+          Boxing
+        </option><option value='1584'>
+          Branding
+        </option><option value='1760'>
+          Brands
+        </option><option value='35'>
+          Bridal
+        </option><option value='1620'>
+          Building Consultants
+        </option><option value='567'>
+          Buses
+        </option><option value='658'>
+          Business Brokers
+        </option><option value='1112'>
+          Business Consulting
+        </option><option value='1219'>
+          Business Development
+        </option><option value='41'>
+          Business Etiquette
+        </option><option value='722'>
+          Business Opportunities
+        </option><option value='1808'>
+          Cannabis
+        </option><option value='854'>
+          Car/Limousines
+        </option><option value='1071'>
+          Career Services
+        </option><option value='1773'>
+          Carpentry
+        </option><option value='46'>
+          Carpets/Rugs
+        </option><option value='49'>
+          Casinos
+        </option><option value='50'>
+          Catering
+        </option><option value='1751'>
+          CBD
+        </option><option value='403'>
+          Cellular Services
+        </option><option value='1632'>
+          Cemeteries
+        </option><option value='648'>
+          Chamber of Commerce
+        </option><option value='55'>
+          Child Care
+        </option><option value='1428'>
+          Chimney
+        </option><option value='1268'>
+          Chiropractors
+        </option><option value='625'>
+          Chocolate
+        </option><option value='576'>
+          Churches
+        </option><option value='873'>
+          Cleaning Services
+        </option><option value='1748'>
+          Climbing
+        </option><option value='58'>
+          Clothing
+        </option><option value='1034'>
+          Clothing Designer
+        </option><option value='1539'>
+          Cloud Computing
+        </option><option value='482'>
+          Coaching
+        </option><option value='764'>
+          Coffee Services
+        </option><option value='1566'>
+          Collection Agencies
+        </option><option value='1013'>
+          Comedy Clubs
+        </option><option value='64'>
+          Communications Consultants
+        </option><option value='395'>
+          Community Service
+        </option><option value='68'>
+          Computer Graphic Services
+        </option><option value='929'>
+          computer networking
+        </option><option value='954'>
+          Computer Services
+        </option><option value='1259'>
+          Computer Software/Hardware
+        </option><option value='1765'>
+          Concierge
+        </option><option value='1396'>
+          Conference Centers
+        </option><option value='701'>
+          Conference/Exhibits
+        </option><option value='1509'>
+          Construction
+        </option><option value='1153'>
+          Construction Management
+        </option><option value='77'>
+          Consulates
+        </option><option value='1231'>
+          Consulting
+        </option><option value='727'>
+          Consumer Products
+        </option><option value='79'>
+          Contractors
+        </option><option value='1736'>
+          Cooking
+        </option><option value='1423'>
+          Copier Machines
+        </option><option value='467'>
+          Copying
+        </option><option value='771'>
+          Cosmetic Enhancement
+        </option><option value='82'>
+          Cosmetics
+        </option><option value='1661'>
+          Country Inns
+        </option><option value='1807'>
+          Covid Testing
+        </option><option value='628'>
+          Credit & Debt Improvement
+        </option><option value='86'>
+          Credit Card Services
+        </option><option value='88'>
+          Cruises
+        </option><option value='1703'>
+          Customs Brokers
+        </option><option value='1646'>
+          CyberSecurity
+        </option><option value='1298'>
+          Data Services
+        </option><option value='564'>
+          Data Storage
+        </option><option value='1015'>
+          Day Spa
+        </option><option value='94'>
+          Dentists
+        </option><option value='1761'>
+          Desserts
+        </option><option value='1670'>
+          Detergents
+        </option><option value='99'>
+          Diamonds
+        </option><option value='1572'>
+          Digital Marketing
+        </option><option value='1422'>
+          Disability Services
+        </option><option value='102'>
+          Distributor
+        </option><option value='374'>
+          Doctors
+        </option><option value='962'>
+          Dog Care
+        </option><option value='1059'>
+          Dogs
+        </option><option value='1622'>
+          Domain Registry
+        </option><option value='1733'>
+          Doors
+        </option><option value='1740'>
+          Drafting
+        </option><option value='1747'>
+          Drug Stores
+        </option><option value='1766'>
+          Drug Testing
+        </option><option value='1667'>
+          E Commerce
+        </option><option value='1559'>
+          E-Marketing
+        </option><option value='105'>
+          Economic Development
+        </option><option value='107'>
+          Education
+        </option><option value='1503'>
+          Electricians
+        </option><option value='110'>
+          Electronics
+        </option><option value='1454'>
+          Elevators/Escalators
+        </option><option value='438'>
+          Embassy's
+        </option><option value='113'>
+          Employee Benefits
+        </option><option value='1430'>
+          Employee/Occupational Health
+        </option><option value='114'>
+          Employment Agencies
+        </option><option value='116'>
+          Energy
+        </option><option value='119'>
+          Engineers
+        </option><option value='120'>
+          Entertainment
+        </option><option value='121'>
+          Entrepreneur
+        </option><option value='123'>
+          Environmental Services
+        </option><option value='1030'>
+          Etiquette/Image Consultant
+        </option><option value='129'>
+          Event Planning
+        </option><option value='885'>
+          Event Space
+        </option><option value='1362'>
+          Exhibits
+        </option><option value='1802'>
+          Expense Reductions
+        </option><option value='136'>
+          Export
+        </option><option value='137'>
+          Exterminators
+        </option><option value='945'>
+          Fashion
+        </option><option value='1636'>
+          Fertility
+        </option><option value='1140'>
+          Fertilizers, Petrochemicals
+        </option><option value='1791'>
+          Filtrations
+        </option><option value='144'>
+          Financial Services
+        </option><option value='1592'>
+          Fire Systems
+        </option><option value='151'>
+          Floors
+        </option><option value='153'>
+          Florists
+        </option><option value='1068'>
+          Food
+        </option><option value='1427'>
+          Franchises
+        </option><option value='158'>
+          Freight Forwarding
+        </option><option value='425'>
+          Fuel
+        </option><option value='1730'>
+          Funeral Homes
+        </option><option value='1795'>
+          Fur
+        </option><option value='160'>
+          Furniture
+        </option><option value='1762'>
+          Gemstones
+        </option><option value='677'>
+          Gourmet Foods
+        </option><option value='167'>
+          Government
+        </option><option value='1575'>
+          Governmental Affairs
+        </option><option value='169'>
+          Graphic Design
+        </option><option value='708'>
+          Hair Care
+        </option><option value='171'>
+          Handbags
+        </option><option value='531'>
+          Health & Beauty
+        </option><option value='383'>
+          Health Care
+        </option><option value='415'>
+          Health Discount Program
+        </option><option value='173'>
+          Health Insurance
+        </option><option value='174'>
+          Health Products
+        </option><option value='1694'>
+          Health/Wellness
+        </option><option value='1698'>
+          Healthcare Management
+        </option><option value='417'>
+          Heating and Air Conditioning
+        </option><option value='1135'>
+          Holding Company
+        </option><option value='1104'>
+          Home Accessories
+        </option><option value='180'>
+          Home Care
+        </option><option value='1655'>
+          Home Care Products
+        </option><option value='1385'>
+          Home Employment Opportunities
+        </option><option value='1111'>
+          Hospitals
+        </option><option value='682'>
+          Hostels
+        </option><option value='185'>
+          Hotels
+        </option><option value='1007'>
+          Housing
+        </option><option value='186'>
+          Human Resources
+        </option><option value='1407'>
+          Identity Theft
+        </option><option value='189'>
+          Import/export
+        </option><option value='935'>
+          Information Technology
+        </option><option value='1780'>
+          Installations
+        </option><option value='194'>
+          Insurance
+        </option><option value='195'>
+          Interior Design
+        </option><option value='196'>
+          International Business
+        </option><option value='1521'>
+          Internet Marketing
+        </option><option value='204'>
+          Internet Services
+        </option><option value='1527'>
+          Internships
+        </option><option value='1625'>
+          Interpreters
+        </option><option value='1175'>
+          Investment Services
+        </option><option value='1439'>
+          IT Consultants
+        </option><option value='211'>
+          Jewelry
+        </option><option value='1656'>
+          Labels
+        </option><option value='1753'>
+          Landscapers
+        </option><option value='216'>
+          Law Firms
+        </option><option value='1782'>
+          Lawn Seed
+        </option><option value='1644'>
+          Leather
+        </option><option value='219'>
+          Legal Services
+        </option><option value='508'>
+          Lighting
+        </option><option value='222'>
+          Limousine/Car Service
+        </option><option value='676'>
+          Linens
+        </option><option value='1565'>
+          Loans
+        </option><option value='1745'>
+          Logistics
+        </option><option value='1624'>
+          Luxury Brands
+        </option><option value='233'>
+          Mailing Services
+        </option><option value='235'>
+          Management Consultants
+        </option><option value='238'>
+          Manufacturers
+        </option><option value='1265'>
+          Marine Services
+        </option><option value='760'>
+          Marketing
+        </option><option value='240'>
+          Massage Therapist
+        </option><option value='1266'>
+          Mattresses
+        </option><option value='1634'>
+          Mechanical Instruction
+        </option><option value='491'>
+          Media
+        </option><option value='245'>
+          Medical Equipment/Supplies
+        </option><option value='1499'>
+          Medical Practices
+        </option><option value='1776'>
+          Medical Transportation
+        </option><option value='513'>
+          Meeting Facilities
+        </option><option value='1348'>
+          Mens Clothing
+        </option><option value='713'>
+          Merchant Services
+        </option><option value='246'>
+          Metals
+        </option><option value='1786'>
+          Modeling Agencies
+        </option><option value='862'>
+          Mortgages
+        </option><option value='1570'>
+          Motors
+        </option><option value='251'>
+          Moving and Storage
+        </option><option value='252'>
+          Museums
+        </option><option value='1805'>
+          Music
+        </option><option value='387'>
+          Networking
+        </option><option value='772'>
+          Non Profit
+        </option><option value='263'>
+          Office Equipment/Supplies
+        </option><option value='481'>
+          Office Furniture
+        </option><option value='1797'>
+          Office Space
+        </option><option value='1610'>
+          Oil
+        </option><option value='1783'>
+          Organizing Services
+        </option><option value='1759'>
+          Orthodontics
+        </option><option value='511'>
+          Packaging
+        </option><option value='272'>
+          Painting Contractors
+        </option><option value='274'>
+          Parking
+        </option><option value='1769'>
+          Payment Processing
+        </option><option value='574'>
+          Payroll Services
+        </option><option value='276'>
+          Perfumes
+        </option><option value='1457'>
+          Pest Services
+        </option><option value='479'>
+          Pet Care
+        </option><option value='362'>
+          Pharmaceuticals
+        </option><option value='1772'>
+          Photo Albums
+        </option><option value='1796'>
+          Photo Booths
+        </option><option value='992'>
+          Photographer
+        </option><option value='280'>
+          Physical Therapy
+        </option><option value='1804'>
+          Pillows
+        </option><option value='282'>
+          Plumbing
+        </option><option value='1793'>
+          Podiatrists
+        </option><option value='1768'>
+          PPE
+        </option><option value='589'>
+          Prescriptions
+        </option><option value='1529'>
+          Printing
+        </option><option value='1630'>
+          Process Servers
+        </option><option value='1276'>
+          Product Information
+        </option><option value='739'>
+          Production Companies
+        </option><option value='288'>
+          Promotional Products
+        </option><option value='1523'>
+          Psychiatrists
+        </option><option value='291'>
+          Public Relations
+        </option><option value='1512'>
+          Raceway
+        </option><option value='293'>
+          Radio
+        </option><option value='1779'>
+          Rafting
+        </option><option value='294'>
+          Real Estate
+        </option><option value='1743'>
+          Real Estate Management
+        </option><option value='1146'>
+          Real Estate/Financial Services
+        </option><option value='1770'>
+          Recovery Assets
+        </option><option value='1326'>
+          Relocation Services
+        </option><option value='495'>
+          Resorts
+        </option><option value='1658'>
+          Restaurant Maintenance
+        </option><option value='298'>
+          Restaurants
+        </option><option value='1574'>
+          Restoration
+        </option><option value='518'>
+          Retirement Living
+        </option><option value='1778'>
+          Roofing
+        </option><option value='1660'>
+          Safety
+        </option><option value='1306'>
+          Sales/Marketing Services
+        </option><option value='305'>
+          Security
+        </option><option value='1354'>
+          Security & Private Investigations
+        </option><option value='1480'>
+          Senior Care
+        </option><option value='1781'>
+          Shelter
+        </option><option value='307'>
+          Shipping
+        </option><option value='1731'>
+          Shredding
+        </option><option value='1789'>
+          Signs
+        </option><option value='859'>
+          Skin Care
+        </option><option value='1193'>
+          Sleepwear
+        </option><option value='1066'>
+          Software
+        </option><option value='1800'>
+          Speakers
+        </option><option value='1390'>
+          Spices
+        </option><option value='316'>
+          Sports
+        </option><option value='1687'>
+          Staffing Agencies
+        </option><option value='1750'>
+          Steel
+        </option><option value='463'>
+          Storage
+        </option><option value='1357'>
+          Substance Abuse Clinic
+        </option><option value='1798'>
+          Sun Protective Apparel
+        </option><option value='321'>
+          Supermarkets
+        </option><option value='1652'>
+          Sustainability
+        </option><option value='1787'>
+          Swimwear
+        </option><option value='487'>
+          Tax Preparation
+        </option><option value='1788'>
+          Tea
+        </option><option value='325'>
+          Telecommunications
+        </option><option value='718'>
+          Telemarketing
+        </option><option value='665'>
+          Television Stations
+        </option><option value='1120'>
+          Theatres
+        </option><option value='1767'>
+          Thermal Scanners
+        </option><option value='714'>
+          Title Insurance
+        </option><option value='330'>
+          Tourism
+        </option><option value='537'>
+          Tours
+        </option><option value='1774'>
+          Traffic Management
+        </option><option value='333'>
+          Training
+        </option><option value='334'>
+          Translation Services
+        </option><option value='1318'>
+          Transportation Services
+        </option><option value='336'>
+          Travel Agencies
+        </option><option value='1492'>
+          Travel Management
+        </option><option value='337'>
+          Trophies
+        </option><option value='1763'>
+          Turbines
+        </option><option value='1801'>
+          Tutors
+        </option><option value='339'>
+          Unclaimed Property
+        </option><option value='1775'>
+          Upholstery
+        </option><option value='1635'>
+          Vaccinations
+        </option><option value='1446'>
+          Valves
+        </option><option value='1548'>
+          Veterans
+        </option><option value='493'>
+          Veterinarians
+        </option><option value='716'>
+          Video Production
+        </option><option value='1799'>
+          Virtual Tours
+        </option><option value='419'>
+          Vitamins
+        </option><option value='1777'>
+          Wallcoverings
+        </option><option value='1689'>
+          Waste Management
+        </option><option value='1784'>
+          Watches
+        </option><option value='947'>
+          Website Development
+        </option><option value='1416'>
+          Weddings
+        </option><option value='693'>
+          Weight Loss
+        </option><option value='1429'>
+          Wellness Center
+        </option><option value='1421'>
+          Wheelchairs & Scooters
+        </option><option value='900'>
+          Wholesalers
+        </option><option value='1696'>
+          Window Treatments
+        </option><option value='1806'>
+          Wireless Services
+        </option><option value='1680'>
+          Writers
+        </option><option value='357'>
+          Yachts
+        </option>            </select>
+            <br/>
+            Or
+            <br/>
+            <input type="text" id="search" name="search" placeholder="Search by Business Name or Keyword"
+                   value=""/>
+            <br/>
+            <input type="submit" class="button" name="submit" value="Search"/>
+        </form>
+    </div>
+    <br/>
+            <div style="width:100%; text-align:center;">
+            Showing 851-875 of 1014, Page 35 of 41        </div>
+        <br/>
+        <a href='?search=&page=34' class='button' style='float:left;'>Previous Page</a><a href='?search=&page=36' class='button' style='float:right';>Next Page</a>        <br/>
+        <br/>
+        <br/>
+        <div class="business">
+  <!-- <div class="business_name">
+    
+Serra International, Inc.  </div>
+  <p class="business_description">
+   
+ Serra offers a wide range of import, export, logistics, transportation, FMS, distribution and oversized cargo international shipping services. Serra is one of the few freight forwarders in the world still in business since 1919. This is due to our exceptional personalized service to all of our freight forwarding and Customs Broker clients. Serra offers air and ocean freight rates that are very competitive while also providing state of the art transportation and logistics services to both large and small importers and exporters.  </p>
+  <a href="directory_detail.php?b=119512" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Serra International, Inc.</h3>
+        <p id="business_description">
+            Serra offers a wide range of import, export, logistics, transportation, FMS, distribution and oversized cargo international shipping services. Serra is one of the few freight forwarders in the world still in business since 1919. This is due to our exceptional personalized service to all of our freight forwarding and Customs Broker clients. Serra offers air and ocean freight rates that are very competitive while also providing state of the art transportation and logistics services to both large and small importers and exporters.        </p>
+        <div id="business_info">
+            <span>Contact Name: Jeanette Gioia</span><br />
+            <span>Phone: 201-716-4822</span><br />
+            <span>Email: <a href="mailto: jgioia@serraintl.com">jgioia@serraintl.com</a></span><br />
+            <span>Website: <a href="http://www.serraintl.com" target="_blank">www.serraintl.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/75 Montgomery Street  Jersey City, NJ USA 07302" target="_blank">75 Montgomery Street  Jersey City, NJ USA 07302</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Servpro of Long Island City, Lower East Side/Downtown Manhattan  </div>
+  <p class="business_description">
+   
+ Immediate Emergency Restoration Services Water, Fire, Mold, Reconstruction, Catastrophic Storm Response, Viral Remediation under strict protocol, 2 hour window   </p>
+  <a href="directory_detail.php?b=119454" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Servpro of Long Island City, Lower East Side/Downtown Manhattan</h3>
+        <p id="business_description">
+            Immediate Emergency Restoration Services Water, Fire, Mold, Reconstruction, Catastrophic Storm Response, Viral Remediation under strict protocol, 2 hour window         </p>
+        <div id="business_info">
+            <span>Contact Name: Maggie Bukowczyk</span><br />
+            <span>Phone: 856.562.5496</span><br />
+            <span>Email: <a href="mailto: maggie@servpro9563.com">maggie@servpro9563.com</a></span><br />
+            <span>Website: <a href="http://www.servprolowereastsidedowntownmanhattan.com" target="_blank">www.servprolowereastsidedowntownmanhattan.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/510 West 27 Street  New York, NY USA 10001" target="_blank">510 West 27 Street  New York, NY USA 10001</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+SGF Associates, Inc.  </div>
+  <p class="business_description">
+   
+ LED, Glass Fiber Optic special lighting products.  </p>
+  <a href="directory_detail.php?b=2756" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>SGF Associates, Inc.</h3>
+        <p id="business_description">
+            LED, Glass Fiber Optic special lighting products.        </p>
+        <div id="business_info">
+            <span>Contact Name: May Huang</span><br />
+            <span>Phone: 212-206-7610</span><br />
+            <span>Email: <a href="mailto: acct@sgfassociates.com">acct@sgfassociates.com</a></span><br />
+            <span>Website: <a href="http://www.sgfassociates.com" target="_blank">www.sgfassociates.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/119 W. 23rd Street 304 New York, NY UNITED STATES 10011" target="_blank">119 W. 23rd Street 304 New York, NY UNITED STATES 10011</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Shark Byte Systems, Inc.  </div>
+  <p class="business_description">
+   
+ Shark Byte Systems develops parking solutions for real estate owners, commercial parking operators, hotels and other parking operators  </p>
+  <a href="directory_detail.php?b=119675" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Shark Byte Systems, Inc.</h3>
+        <p id="business_description">
+            Shark Byte Systems develops parking solutions for real estate owners, commercial parking operators, hotels and other parking operators        </p>
+        <div id="business_info">
+            <span>Contact Name: Michael Sharkey</span><br />
+            <span>Phone: 212-461-2237</span><br />
+            <span>Email: <a href="mailto: msharkey@garagenet.com">msharkey@garagenet.com</a></span><br />
+            <span>Website: <a href="http://www.garagenet.com" target="_blank">www.garagenet.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/125 Maiden Lane, Suite 201  New York, NY USA 10038" target="_blank">125 Maiden Lane, Suite 201  New York, NY USA 10038</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Shelley and Co. Inc  </div>
+  <p class="business_description">
+   
+ Shelley & Co is a leading expert, source, supplier and manufacturer of Natural Fancy Color Diamonds to the global diamond and jewelry industry. The company, based in New York City, has been involved in the industry for the past 15 years. It has built up a strong reputation in the world of natural fancy color and white diamonds and is a leading expert in the field. We pride ourselves on our spectacular inventory of rare and exotic natural fancy color and white diamonds in a wide range of extraordinary colors, shapes and sizes. Because the company is run by women, we have that special touch where advising on color is concerned, and we are also able to provide clients with a warm, personal service.  </p>
+  <a href="directory_detail.php?b=119430" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Shelley and Co. Inc</h3>
+        <p id="business_description">
+            Shelley & Co is a leading expert, source, supplier and manufacturer of Natural Fancy Color Diamonds to the global diamond and jewelry industry. The company, based in New York City, has been involved in the industry for the past 15 years. It has built up a strong reputation in the world of natural fancy color and white diamonds and is a leading expert in the field. We pride ourselves on our spectacular inventory of rare and exotic natural fancy color and white diamonds in a wide range of extraordinary colors, shapes and sizes. Because the company is run by women, we have that special touch where advising on color is concerned, and we are also able to provide clients with a warm, personal service.        </p>
+        <div id="business_info">
+            <span>Contact Name: Shelley  Kabilu</span><br />
+            <span>Phone: 212-869-8880</span><br />
+            <span>Email: <a href="mailto: shelleyandcoinc@gmail.com">shelleyandcoinc@gmail.com</a></span><br />
+            <span>Website: <a href="http://www.shelleyandco.com" target="_blank">www.shelleyandco.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/580 Fifth Avnue, Suite 2301  New York, NY USA 10036" target="_blank">580 Fifth Avnue, Suite 2301  New York, NY USA 10036</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Sheraton LaGuardia East  </div>
+  <p class="business_description">
+   
+ Enjoy a warm welcome and a distinctly Asian flair at the beautiful Sheraton LaGuardia East Hotel. Located in Queens, one of New York City's famed boroughs, our hotel is just three miles away from the LaGuardia airport, accessible by our complimentary shuttle.
+
+Catch a Mets game at Citi Field or stroll over to the Arthur Ashe Tennis Stadium, both are a half-mile away. If you're looking to venture into Manhattan, just a block away, catch the subway, bus, or Long Island Railroad. Or shop the many stores at the shopping mall within our hotel.
+
+Whether you're searching for the perfect wedding venue or planning for a business conference, our professionals will listen to your needs and tailor your next event. Connect, converse, and inspire new ideas in our 14 welcoming meeting rooms, offering 15,000 square feet of space.
+
+After a full day of travel, sightseeing, or meetings, take time to enjoy cuisine from around the world in our new restaurant – Deluge. Find total comfort and relaxation in our 173 spacious guest rooms and suites.
+
+We look forward to welcoming you to our neighborhood at the Sheraton LaGuardia East Hotel  </p>
+  <a href="directory_detail.php?b=11707" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Sheraton LaGuardia East</h3>
+        <p id="business_description">
+            Enjoy a warm welcome and a distinctly Asian flair at the beautiful Sheraton LaGuardia East Hotel. Located in Queens, one of New York City's famed boroughs, our hotel is just three miles away from the LaGuardia airport, accessible by our complimentary shuttle.
+
+Catch a Mets game at Citi Field or stroll over to the Arthur Ashe Tennis Stadium, both are a half-mile away. If you're looking to venture into Manhattan, just a block away, catch the subway, bus, or Long Island Railroad. Or shop the many stores at the shopping mall within our hotel.
+
+Whether you're searching for the perfect wedding venue or planning for a business conference, our professionals will listen to your needs and tailor your next event. Connect, converse, and inspire new ideas in our 14 welcoming meeting rooms, offering 15,000 square feet of space.
+
+After a full day of travel, sightseeing, or meetings, take time to enjoy cuisine from around the world in our new restaurant – Deluge. Find total comfort and relaxation in our 173 spacious guest rooms and suites.
+
+We look forward to welcoming you to our neighborhood at the Sheraton LaGuardia East Hotel        </p>
+        <div id="business_info">
+            <span>Contact Name: Karen Ng</span><br />
+            <span>Phone: 718-670-7406</span><br />
+            <span>Email: <a href="mailto: kng@sheratonlaguardia.com">kng@sheratonlaguardia.com</a></span><br />
+            <span>Website: <a href="http://www.sheratonlaguardia.com" target="_blank">www.sheratonlaguardia.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/135-20 39th Street  Flushing, NY UNITED STATES 11354" target="_blank">135-20 39th Street  Flushing, NY UNITED STATES 11354</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Shleppers  </div>
+  <p class="business_description">
+   
+ Established in 1978, Shleppers Moving & Storage has solidified its reputation as the best of New York's residential and commercial movers. We encourage you to take a look at our testimonials, news stories, and awards!
+
+Call us toll free at 1-800-84-SHLEP or locally at 212-223-4004 to consult with one of our experts about free online estimates, free onsite estimates, buying supplies, storage needs, or any other questions you might have. Our offices are located at 170 E. 61st St. New York, New York 10021
+
+Shleppers Moving & Storage is extremely proud to announce that we're the only New York movers who allow you, the client, to decide whether you want to pay by Guaranteed Pricing ("Flat Rate") or by Hourly Rate!!  </p>
+  <a href="directory_detail.php?b=2451" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Shleppers</h3>
+        <p id="business_description">
+            Established in 1978, Shleppers Moving & Storage has solidified its reputation as the best of New York's residential and commercial movers. We encourage you to take a look at our testimonials, news stories, and awards!
+
+Call us toll free at 1-800-84-SHLEP or locally at 212-223-4004 to consult with one of our experts about free online estimates, free onsite estimates, buying supplies, storage needs, or any other questions you might have. Our offices are located at 170 E. 61st St. New York, New York 10021
+
+Shleppers Moving & Storage is extremely proud to announce that we're the only New York movers who allow you, the client, to decide whether you want to pay by Guaranteed Pricing ("Flat Rate") or by Hourly Rate!!        </p>
+        <div id="business_info">
+            <span>Contact Name: Allen Golan</span><br />
+            <span>Phone: 212-223-4004</span><br />
+            <span>Email: <a href="mailto: allen@shleppers.com">allen@shleppers.com</a></span><br />
+            <span>Website: <a href="http://www.shleppers.com" target="_blank">www.shleppers.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/920 E. 149th Street  Bronx, NY UNITED STATES 10455" target="_blank">920 E. 149th Street  Bronx, NY UNITED STATES 10455</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+ShopKeep  </div>
+  <p class="business_description">
+   
+ Leading software company that supports payment Processing, Automatic inventory tracking and employee management and real time sales reporting anytime, anyplace.  </p>
+  <a href="directory_detail.php?b=119528" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>ShopKeep</h3>
+        <p id="business_description">
+            Leading software company that supports payment Processing, Automatic inventory tracking and employee management and real time sales reporting anytime, anyplace.        </p>
+        <div id="business_info">
+            <span>Contact Name: Gil Abir</span><br />
+            <span>Phone: 917-513-3736</span><br />
+            <span>Email: <a href="mailto: gabir@shopkeep.com">gabir@shopkeep.com</a></span><br />
+            <span>Website: <a href="http://www.shopkeep.com" target="_blank">www.shopkeep.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/460 Park Ave S 7th Floor,   New York, NY USA 10016" target="_blank">460 Park Ave S 7th Floor,   New York, NY USA 10016</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+        <img class="post_image" src="uploads/Shoopkeep.png" onerror="this.style.display='none'" style="max-height: 244px; max-width: 250px;"/>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Sicis North America, Inc.  </div>
+  <p class="business_description">
+   
+ Distributor of Mosaic Glass Tile Chips  </p>
+  <a href="directory_detail.php?b=19234" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Sicis North America, Inc.</h3>
+        <p id="business_description">
+            Distributor of Mosaic Glass Tile Chips        </p>
+        <div id="business_info">
+            <span>Contact Name: Stevan Franeta</span><br />
+            <span>Phone: 212-965-4100</span><br />
+            <span>Email: <a href="mailto: stevan@sicisna.com">stevan@sicisna.com</a></span><br />
+            <span>Website: <a href="http://www.sicis.com" target="_blank">www.sicis.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/150 Bruckner Blvd.  Bronx, NY UNITED STATES 10454" target="_blank">150 Bruckner Blvd.  Bronx, NY UNITED STATES 10454</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Sigma Ridge LLC  </div>
+  <p class="business_description">
+   
+ We are a team of individuals with over a hundred years of combined marketing, IT, management and consulting experience. We have helped many of our clients increase revenue, profits, and to obtain a competitive advantage in their market.
+
+We are a selective team and unfortunately we do not take all client engagements. We only work with organizations where we truly believe we can make a difference. We work by doing a free exploratory call or site visit. We, then make a decision on whether or not to take on a project or engagement. If we cannot help you, we can usually recommend someone that can.  </p>
+  <a href="directory_detail.php?b=119467" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Sigma Ridge LLC</h3>
+        <p id="business_description">
+            We are a team of individuals with over a hundred years of combined marketing, IT, management and consulting experience. We have helped many of our clients increase revenue, profits, and to obtain a competitive advantage in their market.
+
+We are a selective team and unfortunately we do not take all client engagements. We only work with organizations where we truly believe we can make a difference. We work by doing a free exploratory call or site visit. We, then make a decision on whether or not to take on a project or engagement. If we cannot help you, we can usually recommend someone that can.        </p>
+        <div id="business_info">
+            <span>Contact Name: Alex Sierra</span><br />
+            <span>Phone: 929-320-0010</span><br />
+            <span>Email: <a href="mailto: marketing@sigmaridge.com">marketing@sigmaridge.com</a></span><br />
+            <span>Website: <a href="http://www.Sigma Ridge LLC" target="_blank">www.Sigma Ridge LLC</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/2 Manhattan Ave  New Rochelle, NY USA 10801" target="_blank">2 Manhattan Ave  New Rochelle, NY USA 10801</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Simplified Edge   </div>
+  <p class="business_description">
+   
+ Web and Application Development  </p>
+  <a href="directory_detail.php?b=119673" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Simplified Edge </h3>
+        <p id="business_description">
+            Web and Application Development        </p>
+        <div id="business_info">
+            <span>Contact Name: Jimmy Thomas</span><br />
+            <span>Phone: 646-468-3758</span><br />
+            <span>Email: <a href="mailto: jt@simplifiededge.com">jt@simplifiededge.com</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/  New York, NY USA 10033" target="_blank">  New York, NY USA 10033</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Singing Lessons NYC by Eleonor England  </div>
+  <p class="business_description">
+   
+ A premier singing and voice training studio in Manhattan, training professionals and amateurs since 1999  </p>
+  <a href="directory_detail.php?b=119896" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Singing Lessons NYC by Eleonor England</h3>
+        <p id="business_description">
+            A premier singing and voice training studio in Manhattan, training professionals and amateurs since 1999        </p>
+        <div id="business_info">
+            <span>Contact Name: eleonor england</span><br />
+            <span>Phone: 212-736-3118</span><br />
+            <span>Email: <a href="mailto: Singing.lessons.nyc@gmail.com">Singing.lessons.nyc@gmail.com</a></span><br />
+            <span>Website: <a href="http://www.singing-lessons-nyc.EleonorEngland.com" target="_blank">www.singing-lessons-nyc.EleonorEngland.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/520 8th Ave 16th Fl  Manhattan, NY USA 10018" target="_blank">520 8th Ave 16th Fl  Manhattan, NY USA 10018</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Skilla Productions  </div>
+  <p class="business_description">
+   
+ Skilla Productions is a one-stop video production and video marketing agency. We work with business leaders of medium-sized businesses that are missing out on sales opportunities because they don't know how to use video communications effectively. We know how to take abstract ideas and make them concrete: Might be an explainer video, a testimonial, or a video business card, it will always be planned and built strategically to generate an immediate Return on Investment. 
+www.skillaproductions.com/business
+  </p>
+  <a href="directory_detail.php?b=119654" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Skilla Productions</h3>
+        <p id="business_description">
+            Skilla Productions is a one-stop video production and video marketing agency. We work with business leaders of medium-sized businesses that are missing out on sales opportunities because they don't know how to use video communications effectively. We know how to take abstract ideas and make them concrete: Might be an explainer video, a testimonial, or a video business card, it will always be planned and built strategically to generate an immediate Return on Investment. 
+www.skillaproductions.com/business
+        </p>
+        <div id="business_info">
+            <span>Contact Name: Manuela Senatore</span><br />
+            <span>Phone: 646-673-3015</span><br />
+            <span>Email: <a href="mailto: hire@skillaproductions.com">hire@skillaproductions.com</a></span><br />
+            <span>Website: <a href="http://www.skillaproductions.com" target="_blank">www.skillaproductions.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/  Brooklyn, NY USA " target="_blank">  Brooklyn, NY USA </a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Skyline Cruises  </div>
+  <p class="business_description">
+   
+ 120ft tri-level motor yacht specializing in customized catered events for every occasion.    </p>
+  <a href="directory_detail.php?b=118885" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Skyline Cruises</h3>
+        <p id="business_description">
+            120ft tri-level motor yacht specializing in customized catered events for every occasion.          </p>
+        <div id="business_info">
+            <span>Contact Name: Pete  Serro</span><br />
+            <span>Phone: 718-446-1100</span><br />
+            <span>Email: <a href="mailto: pete.serro@skylinecruises.com">pete.serro@skylinecruises.com</a></span><br />
+            <span>Website: <a href="http://www.skylinecruises.com" target="_blank">www.skylinecruises.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/1 World's Fair Marina Pier One Flushing, NY USA 11368" target="_blank">1 World's Fair Marina Pier One Flushing, NY USA 11368</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+skyn Iceland  </div>
+  <p class="business_description">
+   
+ Sin Care  </p>
+  <a href="directory_detail.php?b=119117" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>skyn Iceland</h3>
+        <p id="business_description">
+            Sin Care        </p>
+        <div id="business_info">
+            <span>Contact Name: Sam Driscol</span><br />
+            <span>Phone: 212-588-1555</span><br />
+            <span>Email: <a href="mailto: samanthad@skyniceland.com">samanthad@skyniceland.com</a></span><br />
+            <span>Website: <a href="http://www.skyniceland.com" target="_blank">www.skyniceland.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/56 W. 45th Street, 18th floor  New York, NY USA 10036" target="_blank">56 W. 45th Street, 18th floor  New York, NY USA 10036</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Small Biz Fundings  </div>
+  <p class="business_description">
+   
+ Small business funding means we say "yes!" when the bank says no.
+SmallBizFundings.com offers a one stop business financing experience to meet your business funding needs. We offer options to cover a wide range of industries for many different uses. They include: 
+- up to 15 month 0% unsecured business line of credit
+- short term loans / merchant cash advance
+- term loans 
+- SBA loans 
+- equipment loans 
+- working capital / invoice factoring
+- credit card processing 
+- credit repair 
+- 401(k) / IRA Loans 
+- real estate lending (commercial and residential)
+ 
+  </p>
+  <a href="directory_detail.php?b=119665" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Small Biz Fundings</h3>
+        <p id="business_description">
+            Small business funding means we say "yes!" when the bank says no.
+SmallBizFundings.com offers a one stop business financing experience to meet your business funding needs. We offer options to cover a wide range of industries for many different uses. They include: 
+- up to 15 month 0% unsecured business line of credit
+- short term loans / merchant cash advance
+- term loans 
+- SBA loans 
+- equipment loans 
+- working capital / invoice factoring
+- credit card processing 
+- credit repair 
+- 401(k) / IRA Loans 
+- real estate lending (commercial and residential)
+ 
+        </p>
+        <div id="business_info">
+            <span>Contact Name: Theodor  Domuta</span><br />
+            <span>Phone: 800-975-7749</span><br />
+            <span>Email: <a href="mailto: contact@smallbizfundings.com">contact@smallbizfundings.com</a></span><br />
+            <span>Website: <a href="http://www.smallbizfundings.com" target="_blank">www.smallbizfundings.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/1270 Avenue of Americas, 7th floor  New York, NY USA 10020" target="_blank">1270 Avenue of Americas, 7th floor  New York, NY USA 10020</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Small Business Management Consulting  </div>
+  <p class="business_description">
+   
+ I specialize in helping early-stage businesses from all industries, become more visible by improving their business story, and more profitable by refining their business model.  I help them find their True North so they prospect likely new customers, and not go after any random business.   </p>
+  <a href="directory_detail.php?b=119909" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Small Business Management Consulting</h3>
+        <p id="business_description">
+            I specialize in helping early-stage businesses from all industries, become more visible by improving their business story, and more profitable by refining their business model.  I help them find their True North so they prospect likely new customers, and not go after any random business.         </p>
+        <div id="business_info">
+            <span>Contact Name: Alan Siege</span><br />
+            <span>Phone: 718-768-1672</span><br />
+            <span>Email: <a href="mailto: alan.siege@sbmc.biz">alan.siege@sbmc.biz</a></span><br />
+            <span>Website: <a href="http://www.sbmc.biz" target="_blank">www.sbmc.biz</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/  New York, NY USA 11215" target="_blank">  New York, NY USA 11215</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Small Business Transportation Resource Center (SBTRC)/ Office of Small and Disadvantaged Business Utilization at LAGCC  </div>
+  <p class="business_description">
+   
+ The U.S. Department of Transportation’s (USDOT) Small Business Transportation Resource Center (SBTRC) – Northeast Region, located at LaGuardia Community College, helps new and emerging businesses obtain transportation-related contracts.
+
+ We provide training and advising on marketing to the Department of Transportation, Disadvantaged Business Enterprise certification, short-term lending and bonding assistance. The SBTRC is funded by the USDOT’s Office of Small and Disadvantaged Business Utilization. We serve New York State, Massachusetts, Connecticut, Vermont, Rhode Island, New Hampshire and Maine.  </p>
+  <a href="directory_detail.php?b=119824" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Small Business Transportation Resource Center (SBTRC)/ Office of Small and Disadvantaged Business Utilization at LAGCC</h3>
+        <p id="business_description">
+            The U.S. Department of Transportation’s (USDOT) Small Business Transportation Resource Center (SBTRC) – Northeast Region, located at LaGuardia Community College, helps new and emerging businesses obtain transportation-related contracts.
+
+ We provide training and advising on marketing to the Department of Transportation, Disadvantaged Business Enterprise certification, short-term lending and bonding assistance. The SBTRC is funded by the USDOT’s Office of Small and Disadvantaged Business Utilization. We serve New York State, Massachusetts, Connecticut, Vermont, Rhode Island, New Hampshire and Maine.        </p>
+        <div id="business_info">
+            <span>Contact Name: Lizbeth Rodriguez</span><br />
+            <span>Phone: 718-482-5941</span><br />
+            <span>Email: <a href="mailto: lirodriguez@lagcc.cuny.edu">lirodriguez@lagcc.cuny.edu</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/31-10 Thomson Avenue Building B, Suite 309  Long Island City, NY USA 11101" target="_blank">31-10 Thomson Avenue Building B, Suite 309  Long Island City, NY USA 11101</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Smile Train Inc.  </div>
+  <p class="business_description">
+   
+ An international children's charity with a sustainable approach to addressing cleft lip and palate globally.  </p>
+  <a href="directory_detail.php?b=119182" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Smile Train Inc.</h3>
+        <p id="business_description">
+            An international children's charity with a sustainable approach to addressing cleft lip and palate globally.        </p>
+        <div id="business_info">
+            <span>Contact Name: Melissa Merkel-Dallaryan</span><br />
+            <span>Phone: 646-751-3230</span><br />
+            <span>Email: <a href="mailto: mmerkeldallaryan@smiletrain.org">mmerkeldallaryan@smiletrain.org</a></span><br />
+            <span>Website: <a href="http://www.smiletrain.org" target="_blank">www.smiletrain.org</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/633 Third Ave, 9th Floor  New York, NY USA 10017" target="_blank">633 Third Ave, 9th Floor  New York, NY USA 10017</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Smith Douglass Associates  </div>
+  <p class="business_description">
+   
+ From marketing content, personal branding, or podcast production, we help small businesses find their words and tell their story. Whether you need just a bit of coaching to get your story told right, or an entire suite of marketing programs to help you reach your audience, we can help.  </p>
+  <a href="directory_detail.php?b=119718" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Smith Douglass Associates</h3>
+        <p id="business_description">
+            From marketing content, personal branding, or podcast production, we help small businesses find their words and tell their story. Whether you need just a bit of coaching to get your story told right, or an entire suite of marketing programs to help you reach your audience, we can help.        </p>
+        <div id="business_info">
+            <span>Contact Name: Merrill Loechner</span><br />
+            <span>Phone: 203-268-2606</span><br />
+            <span>Email: <a href="mailto: MLL@smithdouglass.com">MLL@smithdouglass.com</a></span><br />
+            <span>Website: <a href="http://www.smithdouglass.com" target="_blank">www.smithdouglass.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/  New York, NY USA " target="_blank">  New York, NY USA </a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Solaris Laboratory NY LLC.  </div>
+  <p class="business_description">
+   
+ Holistic Beauty Tools  </p>
+  <a href="directory_detail.php?b=118989" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Solaris Laboratory NY LLC.</h3>
+        <p id="business_description">
+            Holistic Beauty Tools        </p>
+        <div id="business_info">
+            <span>Contact Name: Rodrigo Villavicencil</span><br />
+            <span>Phone: 646-662-8910</span><br />
+            <span>Email: <a href="mailto: support@solarislabny.com">support@solarislabny.com</a></span><br />
+            <span>Website: <a href="http://SolarisLabNY.com" target="_blank">SolarisLabNY.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/820 Lenora Street Suite 2017 Seattle, WA USA 98121" target="_blank">820 Lenora Street Suite 2017 Seattle, WA USA 98121</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Solitaire Jewels  </div>
+  <p class="business_description">
+   
+ Jewelry  </p>
+  <a href="directory_detail.php?b=3420" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Solitaire Jewels</h3>
+        <p id="business_description">
+            Jewelry        </p>
+        <div id="business_info">
+            <span>Contact Name: Vinay  Krishnani</span><br />
+            <span>Phone: 212-382-3062</span><br />
+            <span>Email: <a href="mailto: info@kainnewyork.com">info@kainnewyork.com</a></span><br />
+            <span>Website: <a href="http://www.designsbyhc.com" target="_blank">www.designsbyhc.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/998 C Old Country Road, Suite 221  Plainview, NY USA 11803" target="_blank">998 C Old Country Road, Suite 221  Plainview, NY USA 11803</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Sonotec US  </div>
+  <p class="business_description">
+   
+ Manufacturer of ultrasound devices: flow rate monitoring, bubble detection, preventative maintenance non-destructive testing  </p>
+  <a href="directory_detail.php?b=119589" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Sonotec US</h3>
+        <p id="business_description">
+            Manufacturer of ultrasound devices: flow rate monitoring, bubble detection, preventative maintenance non-destructive testing        </p>
+        <div id="business_info">
+            <span>Contact Name: Brian Kavanagh</span><br />
+            <span>Phone: 631-452-2805</span><br />
+            <span>Email: <a href="mailto: bkavanagh@sonotecusa.com">bkavanagh@sonotecusa.com</a></span><br />
+            <span>Website: <a href="http://www.sonotecusa.com" target="_blank">www.sonotecusa.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/  , NY USA " target="_blank">  , NY USA </a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Sotheby's International Realty - Lisa Brisbane  </div>
+  <p class="business_description">
+   
+ Real Estate  </p>
+  <a href="directory_detail.php?b=119814" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Sotheby's International Realty - Lisa Brisbane</h3>
+        <p id="business_description">
+            Real Estate        </p>
+        <div id="business_info">
+            <span>Contact Name: Lisa  Brisbane</span><br />
+            <span>Phone: 646-667-8516</span><br />
+            <span>Email: <a href="mailto: lisa.brisbane@sothebys.realty">lisa.brisbane@sothebys.realty</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/149 5th Avenue  New York, NY USA 10010" target="_blank">149 5th Avenue  New York, NY USA 10010</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Sparkle Maintenance Inc  </div>
+  <p class="business_description">
+   
+ Facilities Management Company consisting of building maintenance, windows, marble cleaning, power washing, metal cleaning, exterior caulking, high speed floor waxing, 24 hour cleaning services, hard water stain removal.  </p>
+  <a href="directory_detail.php?b=118118" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Sparkle Maintenance Inc</h3>
+        <p id="business_description">
+            Facilities Management Company consisting of building maintenance, windows, marble cleaning, power washing, metal cleaning, exterior caulking, high speed floor waxing, 24 hour cleaning services, hard water stain removal.        </p>
+        <div id="business_info">
+            <span>Contact Name: Stanley Yeugelowitz</span><br />
+            <span>Phone: 718-356-6858</span><br />
+            <span>Email: <a href="mailto: tara@sminycgroup.com">tara@sminycgroup.com</a></span><br />
+            <span>Website: <a href="http://www.SMINYCGROUP.COM" target="_blank">www.SMINYCGROUP.COM</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/9728 - 3rd Avenue  Brooklyn, NY UNITED STATES 11209" target="_blank">9728 - 3rd Avenue  Brooklyn, NY UNITED STATES 11209</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+        <br/>
+        <br/>
+        <a href='?search=&page=34' class='button' style='float:left;'>Previous Page</a><a href='?search=&page=36' class='button' style='float:right';>Next Page</a>
+            <div class="clearfix"></div>
+    <br/>
+    <br/>
+</div>
+
+<div id="footer">
+  <img id="footer_logo" src="images/chamber_logo_color.png" />
+  <br />
+  <br />
+  <div id="mission">
+    The mission of the Chamber is to improve the business climate and quality of
+    living in the New York Metropolitan Area for businesses, workers, residents
+    and visitors.
+  </div>
+  <br />
+  <div id="contact_info">
+    Greater New York Chamber of Commerce <br />
+    20 West 44th Street, 4th Floor <br />
+    New York City, NY 10036 <br  />
+    Phone: 212-CHAMBER (212-686-7220) <br />
+    <br />
+    <div id="buttons">
+      <a class="button" href="./membership_application.php">Join</a>
+      <a class="button" href="./contact.php">Contact Us</a>
+      <a class="button" href="https://visitor.r20.constantcontact.com/manage/optin?v=001kkqO0FxDKZRRxT3tTJHPTwiaTTbEIELDwsv2rFK1UQGdzHjGL91cnsY8moIs8p5BCsv7DgOP7iyR0vpIN5n9k58345gJY9VizlyKZqi-0OGDt9gDxpq4AtYH7fX0KIKyg1gXFEVJtib71SJsPGIUl28BaEhHTtjy">Sign Up For Email Updates</a>
+      <a class="button" href="./privacy.php">Privacy Policy</a>
+    </div>
+  </div>
+  <br />
+  <div id="sitemap">
+    <a href="./directory.php">Business Directory</a> |
+    <a href="./join.php">Benefits</a> |
+    <a href="./news.php">News</a> |
+    <a href="./calendar.php">Events</a> |
+    <a href="./bulletin_board.php">Bulletin Board</a> |
+    <a href="./jobs.php">Job Listings</a> |
+    <a href="./profiles.php">Member Profiles</a> |
+    <a href="./tv_watch.php">Chamber TV</a> |
+    <a href="./board.php">About Us</a>
+  </div>
+</div>
+<div id="copyright">
+  <div id="icons">
+    <a href="https://www.facebook.com/NYChamber/"><img src="icons/facebook.png" /></a>
+    <a href="https://www.instagram.com/nychamber/"><img src="icons/instagram.png" /></a>
+    <a href="https://www.linkedin.com/company/greater-new-york-chamber-of-commerce/?viewAsMember=true"><img src="icons/linkedin.png" /></a>
+    <a href="https://twitter.com/nychamber?lang=en"><img src="icons/twitter.png" /></a> <br />
+  </div>
+  &copy; 2021, Greater New York Chamber of Commerce <br />
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+
+    <script>
+        var cat = all;
+        document.getElementById("category").value = cat;
+    </script>
+</body>
+</html>

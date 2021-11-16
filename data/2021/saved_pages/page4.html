@@ -1,0 +1,1590 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greater New York Chamber of Commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css?t=1637032431"/>
+    <link rel="stylesheet" href="css/global_styling.css?t=1637032431"/>
+    <link rel="stylesheet" href="css/navbar.css?t=1637032431"/>
+    <link rel="stylesheet" href="css/event_bar.css?t=1637032431"/>
+    <link rel="stylesheet" href="css/footer.css?t=1637032431"/>
+    <link rel="stylesheet" href="css/directory.css?t=1637032431"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121896854-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121896854-1');
+    </script>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<div class="navigation" id="nav">
+  <a href="./membership_application.php" class="active">
+    Join The Chamber
+  </a>
+  <a href="./calendar.php">
+    Events
+  </a>
+  <a href="./directory.php">
+    Business Directory
+  </a>
+  <a href="./join.php">
+    Benefits
+  </a>
+  <a href="./news.php">
+    News
+  </a>
+  <a class="navigation__item navigation__item_bgred" href="./bulletin_board.php">
+    COVID-19 Business Resources
+  </a>
+  <a href="./jobs.php">
+    Job Listings
+  </a>
+  <a href="./profiles.php">
+    Member Profiles
+  </a>
+  <a href="./tv_watch.php">
+    Chamber TV
+  </a>
+  <a href="./board.php">
+    About Us
+  </a>
+  <a href="./contact.php">
+    Contact Us
+  </a>
+  <a href="https://visitor.r20.constantcontact.com/manage/optin?v=001kkqO0FxDKZRRxT3tTJHPTwiaTTbEIELDwsv2rFK1UQGdzHjGL91cnsY8moIs8p5BCsv7DgOP7iyR0vpIN5n9k58345gJY9VizlyKZqi-0OGDt9gDxpq4AtYH7fX0KIKyg1gXFEVJtib71SJsPGIUl28BaEhHTtjy">
+    Receive Chamber E-mails
+  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="material-icons">menu</i>
+  </a>
+</div>
+
+<div id="header-image" style="background-image:url('./wallpaper-web.jpg');">
+  <table style="width:100%;background: rgba(0, 0, 0, 0.5);">
+    <tr>
+      <td align="center" valign="middle" style="width:15%;">
+        <a href="/"><img id="icon" src="chamber_logo.png" /></a>
+      </td>
+      <td valign="middle">
+        <div id="navbar_title">
+          Greater New York Chamber of Commerce <br />
+          212-CHAMBER
+        </div>
+      </td>
+      <td align="center">
+        <a href="https://www.facebook.com/NYChamber/"><img src="icons/facebook.png" /></a>
+        <a href="https://www.instagram.com/nychamber/" target="_blank"><img src="icons/instagram.png" /></a>
+        <a href="https://www.linkedin.com/company/greater-new-york-chamber-of-commerce/?viewAsMember=true"><img src="icons/linkedin.png" /></a>
+        <a href="https://twitter.com/nychamber?lang=en"><img src="icons/twitter.png" /></a>
+        <br />
+        <a class="button" href="./visit_nyc.php">Visit NYC!</a>
+        <br />
+        <br />
+      </td>
+    </tr>
+  </table>
+
+  <!-- <script>
+    function display() {
+      $(".nav-dropdown-content").toggle();
+    }
+  </script> -->
+
+  <script>
+      function myFunction() {
+          var x = document.getElementById("nav");
+          if (x.className === "navigation") {
+              x.className += " responsive";
+          } else {
+              x.className = "navigation";
+          }
+      }
+  </script>
+</div>
+<!-- Events Topbar -->
+<div id="events_bar">
+
+    <table cellspacing="0">
+        <tr>
+            <th align="center" class="head-button" style="padding: 20px;text-align:center;"
+                onclick="top.window.location.href='./calendar.php'">
+                UPCOMING EVENTS
+            </th>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=983'">
+                    Open House Networking on Clubhouse                    <div>
+                        November 15, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=976'">
+                    Online Networking Coffee                     <div>
+                        November 16, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=984'">
+                    Online Networking Cocktail Reception                    <div>
+                        November 18, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=985'">
+                    Online Networking Coffee                    <div>
+                        November 23, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=962'">
+                    Holiday Networking Party                    <div>
+                        December 2, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=986'">
+                    How to Use LinkedIn & Grow Your Business                    <div>
+                        December 10, 2021                    </div>
+                </td>
+                    </tr>
+    </table>
+
+</div> <!-- events_bar -->
+
+<div class="content">
+    <h4 style="text-align: center;margin-top:25px; font-weight: bold;">
+        Chamber Member Business Directory
+    </h4>
+    <div id="alphabetize">
+        <a class='button' href='directory.php?cat=all'>Alphabetically Listed</a> <br/>
+        Or Search By Letter:
+        <a class='alph_btn' href='directory.php?l=a'>a</a><a class='alph_btn' href='directory.php?l=b'>b</a><a class='alph_btn' href='directory.php?l=c'>c</a><a class='alph_btn' href='directory.php?l=d'>d</a><a class='alph_btn' href='directory.php?l=e'>e</a><a class='alph_btn' href='directory.php?l=f'>f</a><a class='alph_btn' href='directory.php?l=g'>g</a><a class='alph_btn' href='directory.php?l=h'>h</a><a class='alph_btn' href='directory.php?l=i'>i</a><a class='alph_btn' href='directory.php?l=j'>j</a><a class='alph_btn' href='directory.php?l=k'>k</a><a class='alph_btn' href='directory.php?l=l'>l</a><a class='alph_btn' href='directory.php?l=m'>m</a><a class='alph_btn' href='directory.php?l=n'>n</a><a class='alph_btn' href='directory.php?l=o'>o</a><a class='alph_btn' href='directory.php?l=p'>p</a><a class='alph_btn' href='directory.php?l=q'>q</a><a class='alph_btn' href='directory.php?l=r'>r</a><a class='alph_btn' href='directory.php?l=s'>s</a><a class='alph_btn' href='directory.php?l=t'>t</a><a class='alph_btn' href='directory.php?l=u'>u</a><a class='alph_btn' href='directory.php?l=v'>v</a><a class='alph_btn' href='directory.php?l=w'>w</a><a class='alph_btn' href='directory.php?l=x'>x</a><a class='alph_btn' href='directory.php?l=y'>y</a><a class='alph_btn' href='directory.php?l=z'>z</a>        <a class='alph_btn' href='directory.php?l=num'>0-9</a>
+    </div>
+    <div id="search_bar">
+        Or <br/>
+        <form action="directory_url_creator.php" method="post">
+            <select id="category" name="category">
+                <option value="all" selected>
+                    Search By Category
+                </option>
+                <option value='1'>
+          Accessories
+        </option><option value='1669'>
+          Accommodation
+        </option><option value='967'>
+          Accounting Services
+        </option><option value='1536'>
+          Acting Schools
+        </option><option value='975'>
+          Advertising
+        </option><option value='11'>
+          Airlines
+        </option><option value='1502'>
+          Amusement Park
+        </option><option value='15'>
+          Apparel
+        </option><option value='1638'>
+          Apps
+        </option><option value='1212'>
+          Aquarium
+        </option><option value='902'>
+          Architects
+        </option><option value='368'>
+          Art Gallery
+        </option><option value='1756'>
+          Artificial Intelligence
+        </option><option value='21'>
+          Associations
+        </option><option value='1739'>
+          Auto Services
+        </option><option value='1373'>
+          Automobile Dealer
+        </option><option value='1705'>
+          Automobile Parts
+        </option><option value='1790'>
+          Baby Products
+        </option><option value='1803'>
+          Bakeries
+        </option><option value='30'>
+          Banks
+        </option><option value='1448'>
+          Banquet Facilities
+        </option><option value='621'>
+          Barter
+        </option><option value='31'>
+          Beauty
+        </option><option value='905'>
+          Bed & Breakfast
+        </option><option value='1794'>
+          Bedding
+        </option><option value='33'>
+          Benefits Consulting
+        </option><option value='709'>
+          Beverages
+        </option><option value='1609'>
+          BID - Business Improvement Development
+        </option><option value='382'>
+          Bookkeeping Services
+        </option><option value='1792'>
+          Boxing
+        </option><option value='1584'>
+          Branding
+        </option><option value='1760'>
+          Brands
+        </option><option value='35'>
+          Bridal
+        </option><option value='1620'>
+          Building Consultants
+        </option><option value='567'>
+          Buses
+        </option><option value='658'>
+          Business Brokers
+        </option><option value='1112'>
+          Business Consulting
+        </option><option value='1219'>
+          Business Development
+        </option><option value='41'>
+          Business Etiquette
+        </option><option value='722'>
+          Business Opportunities
+        </option><option value='1808'>
+          Cannabis
+        </option><option value='854'>
+          Car/Limousines
+        </option><option value='1071'>
+          Career Services
+        </option><option value='1773'>
+          Carpentry
+        </option><option value='46'>
+          Carpets/Rugs
+        </option><option value='49'>
+          Casinos
+        </option><option value='50'>
+          Catering
+        </option><option value='1751'>
+          CBD
+        </option><option value='403'>
+          Cellular Services
+        </option><option value='1632'>
+          Cemeteries
+        </option><option value='648'>
+          Chamber of Commerce
+        </option><option value='55'>
+          Child Care
+        </option><option value='1428'>
+          Chimney
+        </option><option value='1268'>
+          Chiropractors
+        </option><option value='625'>
+          Chocolate
+        </option><option value='576'>
+          Churches
+        </option><option value='873'>
+          Cleaning Services
+        </option><option value='1748'>
+          Climbing
+        </option><option value='58'>
+          Clothing
+        </option><option value='1034'>
+          Clothing Designer
+        </option><option value='1539'>
+          Cloud Computing
+        </option><option value='482'>
+          Coaching
+        </option><option value='764'>
+          Coffee Services
+        </option><option value='1566'>
+          Collection Agencies
+        </option><option value='1013'>
+          Comedy Clubs
+        </option><option value='64'>
+          Communications Consultants
+        </option><option value='395'>
+          Community Service
+        </option><option value='68'>
+          Computer Graphic Services
+        </option><option value='929'>
+          computer networking
+        </option><option value='954'>
+          Computer Services
+        </option><option value='1259'>
+          Computer Software/Hardware
+        </option><option value='1765'>
+          Concierge
+        </option><option value='1396'>
+          Conference Centers
+        </option><option value='701'>
+          Conference/Exhibits
+        </option><option value='1509'>
+          Construction
+        </option><option value='1153'>
+          Construction Management
+        </option><option value='77'>
+          Consulates
+        </option><option value='1231'>
+          Consulting
+        </option><option value='727'>
+          Consumer Products
+        </option><option value='79'>
+          Contractors
+        </option><option value='1736'>
+          Cooking
+        </option><option value='1423'>
+          Copier Machines
+        </option><option value='467'>
+          Copying
+        </option><option value='771'>
+          Cosmetic Enhancement
+        </option><option value='82'>
+          Cosmetics
+        </option><option value='1661'>
+          Country Inns
+        </option><option value='1807'>
+          Covid Testing
+        </option><option value='628'>
+          Credit & Debt Improvement
+        </option><option value='86'>
+          Credit Card Services
+        </option><option value='88'>
+          Cruises
+        </option><option value='1703'>
+          Customs Brokers
+        </option><option value='1646'>
+          CyberSecurity
+        </option><option value='1298'>
+          Data Services
+        </option><option value='564'>
+          Data Storage
+        </option><option value='1015'>
+          Day Spa
+        </option><option value='94'>
+          Dentists
+        </option><option value='1761'>
+          Desserts
+        </option><option value='1670'>
+          Detergents
+        </option><option value='99'>
+          Diamonds
+        </option><option value='1572'>
+          Digital Marketing
+        </option><option value='1422'>
+          Disability Services
+        </option><option value='102'>
+          Distributor
+        </option><option value='374'>
+          Doctors
+        </option><option value='962'>
+          Dog Care
+        </option><option value='1059'>
+          Dogs
+        </option><option value='1622'>
+          Domain Registry
+        </option><option value='1733'>
+          Doors
+        </option><option value='1740'>
+          Drafting
+        </option><option value='1747'>
+          Drug Stores
+        </option><option value='1766'>
+          Drug Testing
+        </option><option value='1667'>
+          E Commerce
+        </option><option value='1559'>
+          E-Marketing
+        </option><option value='105'>
+          Economic Development
+        </option><option value='107'>
+          Education
+        </option><option value='1503'>
+          Electricians
+        </option><option value='110'>
+          Electronics
+        </option><option value='1454'>
+          Elevators/Escalators
+        </option><option value='438'>
+          Embassy's
+        </option><option value='113'>
+          Employee Benefits
+        </option><option value='1430'>
+          Employee/Occupational Health
+        </option><option value='114'>
+          Employment Agencies
+        </option><option value='116'>
+          Energy
+        </option><option value='119'>
+          Engineers
+        </option><option value='120'>
+          Entertainment
+        </option><option value='121'>
+          Entrepreneur
+        </option><option value='123'>
+          Environmental Services
+        </option><option value='1030'>
+          Etiquette/Image Consultant
+        </option><option value='129'>
+          Event Planning
+        </option><option value='885'>
+          Event Space
+        </option><option value='1362'>
+          Exhibits
+        </option><option value='1802'>
+          Expense Reductions
+        </option><option value='136'>
+          Export
+        </option><option value='137'>
+          Exterminators
+        </option><option value='945'>
+          Fashion
+        </option><option value='1636'>
+          Fertility
+        </option><option value='1140'>
+          Fertilizers, Petrochemicals
+        </option><option value='1791'>
+          Filtrations
+        </option><option value='144'>
+          Financial Services
+        </option><option value='1592'>
+          Fire Systems
+        </option><option value='151'>
+          Floors
+        </option><option value='153'>
+          Florists
+        </option><option value='1068'>
+          Food
+        </option><option value='1427'>
+          Franchises
+        </option><option value='158'>
+          Freight Forwarding
+        </option><option value='425'>
+          Fuel
+        </option><option value='1730'>
+          Funeral Homes
+        </option><option value='1795'>
+          Fur
+        </option><option value='160'>
+          Furniture
+        </option><option value='1762'>
+          Gemstones
+        </option><option value='677'>
+          Gourmet Foods
+        </option><option value='167'>
+          Government
+        </option><option value='1575'>
+          Governmental Affairs
+        </option><option value='169'>
+          Graphic Design
+        </option><option value='708'>
+          Hair Care
+        </option><option value='171'>
+          Handbags
+        </option><option value='531'>
+          Health & Beauty
+        </option><option value='383'>
+          Health Care
+        </option><option value='415'>
+          Health Discount Program
+        </option><option value='173'>
+          Health Insurance
+        </option><option value='174'>
+          Health Products
+        </option><option value='1694'>
+          Health/Wellness
+        </option><option value='1698'>
+          Healthcare Management
+        </option><option value='417'>
+          Heating and Air Conditioning
+        </option><option value='1135'>
+          Holding Company
+        </option><option value='1104'>
+          Home Accessories
+        </option><option value='180'>
+          Home Care
+        </option><option value='1655'>
+          Home Care Products
+        </option><option value='1385'>
+          Home Employment Opportunities
+        </option><option value='1111'>
+          Hospitals
+        </option><option value='682'>
+          Hostels
+        </option><option value='185'>
+          Hotels
+        </option><option value='1007'>
+          Housing
+        </option><option value='186'>
+          Human Resources
+        </option><option value='1407'>
+          Identity Theft
+        </option><option value='189'>
+          Import/export
+        </option><option value='935'>
+          Information Technology
+        </option><option value='1780'>
+          Installations
+        </option><option value='194'>
+          Insurance
+        </option><option value='195'>
+          Interior Design
+        </option><option value='196'>
+          International Business
+        </option><option value='1521'>
+          Internet Marketing
+        </option><option value='204'>
+          Internet Services
+        </option><option value='1527'>
+          Internships
+        </option><option value='1625'>
+          Interpreters
+        </option><option value='1175'>
+          Investment Services
+        </option><option value='1439'>
+          IT Consultants
+        </option><option value='211'>
+          Jewelry
+        </option><option value='1656'>
+          Labels
+        </option><option value='1753'>
+          Landscapers
+        </option><option value='216'>
+          Law Firms
+        </option><option value='1782'>
+          Lawn Seed
+        </option><option value='1644'>
+          Leather
+        </option><option value='219'>
+          Legal Services
+        </option><option value='508'>
+          Lighting
+        </option><option value='222'>
+          Limousine/Car Service
+        </option><option value='676'>
+          Linens
+        </option><option value='1565'>
+          Loans
+        </option><option value='1745'>
+          Logistics
+        </option><option value='1624'>
+          Luxury Brands
+        </option><option value='233'>
+          Mailing Services
+        </option><option value='235'>
+          Management Consultants
+        </option><option value='238'>
+          Manufacturers
+        </option><option value='1265'>
+          Marine Services
+        </option><option value='760'>
+          Marketing
+        </option><option value='240'>
+          Massage Therapist
+        </option><option value='1266'>
+          Mattresses
+        </option><option value='1634'>
+          Mechanical Instruction
+        </option><option value='491'>
+          Media
+        </option><option value='245'>
+          Medical Equipment/Supplies
+        </option><option value='1499'>
+          Medical Practices
+        </option><option value='1776'>
+          Medical Transportation
+        </option><option value='513'>
+          Meeting Facilities
+        </option><option value='1348'>
+          Mens Clothing
+        </option><option value='713'>
+          Merchant Services
+        </option><option value='246'>
+          Metals
+        </option><option value='1786'>
+          Modeling Agencies
+        </option><option value='862'>
+          Mortgages
+        </option><option value='1570'>
+          Motors
+        </option><option value='251'>
+          Moving and Storage
+        </option><option value='252'>
+          Museums
+        </option><option value='1805'>
+          Music
+        </option><option value='387'>
+          Networking
+        </option><option value='772'>
+          Non Profit
+        </option><option value='263'>
+          Office Equipment/Supplies
+        </option><option value='481'>
+          Office Furniture
+        </option><option value='1797'>
+          Office Space
+        </option><option value='1610'>
+          Oil
+        </option><option value='1783'>
+          Organizing Services
+        </option><option value='1759'>
+          Orthodontics
+        </option><option value='511'>
+          Packaging
+        </option><option value='272'>
+          Painting Contractors
+        </option><option value='274'>
+          Parking
+        </option><option value='1769'>
+          Payment Processing
+        </option><option value='574'>
+          Payroll Services
+        </option><option value='276'>
+          Perfumes
+        </option><option value='1457'>
+          Pest Services
+        </option><option value='479'>
+          Pet Care
+        </option><option value='362'>
+          Pharmaceuticals
+        </option><option value='1772'>
+          Photo Albums
+        </option><option value='1796'>
+          Photo Booths
+        </option><option value='992'>
+          Photographer
+        </option><option value='280'>
+          Physical Therapy
+        </option><option value='1804'>
+          Pillows
+        </option><option value='282'>
+          Plumbing
+        </option><option value='1793'>
+          Podiatrists
+        </option><option value='1768'>
+          PPE
+        </option><option value='589'>
+          Prescriptions
+        </option><option value='1529'>
+          Printing
+        </option><option value='1630'>
+          Process Servers
+        </option><option value='1276'>
+          Product Information
+        </option><option value='739'>
+          Production Companies
+        </option><option value='288'>
+          Promotional Products
+        </option><option value='1523'>
+          Psychiatrists
+        </option><option value='291'>
+          Public Relations
+        </option><option value='1512'>
+          Raceway
+        </option><option value='293'>
+          Radio
+        </option><option value='1779'>
+          Rafting
+        </option><option value='294'>
+          Real Estate
+        </option><option value='1743'>
+          Real Estate Management
+        </option><option value='1146'>
+          Real Estate/Financial Services
+        </option><option value='1770'>
+          Recovery Assets
+        </option><option value='1326'>
+          Relocation Services
+        </option><option value='495'>
+          Resorts
+        </option><option value='1658'>
+          Restaurant Maintenance
+        </option><option value='298'>
+          Restaurants
+        </option><option value='1574'>
+          Restoration
+        </option><option value='518'>
+          Retirement Living
+        </option><option value='1778'>
+          Roofing
+        </option><option value='1660'>
+          Safety
+        </option><option value='1306'>
+          Sales/Marketing Services
+        </option><option value='305'>
+          Security
+        </option><option value='1354'>
+          Security & Private Investigations
+        </option><option value='1480'>
+          Senior Care
+        </option><option value='1781'>
+          Shelter
+        </option><option value='307'>
+          Shipping
+        </option><option value='1731'>
+          Shredding
+        </option><option value='1789'>
+          Signs
+        </option><option value='859'>
+          Skin Care
+        </option><option value='1193'>
+          Sleepwear
+        </option><option value='1066'>
+          Software
+        </option><option value='1800'>
+          Speakers
+        </option><option value='1390'>
+          Spices
+        </option><option value='316'>
+          Sports
+        </option><option value='1687'>
+          Staffing Agencies
+        </option><option value='1750'>
+          Steel
+        </option><option value='463'>
+          Storage
+        </option><option value='1357'>
+          Substance Abuse Clinic
+        </option><option value='1798'>
+          Sun Protective Apparel
+        </option><option value='321'>
+          Supermarkets
+        </option><option value='1652'>
+          Sustainability
+        </option><option value='1787'>
+          Swimwear
+        </option><option value='487'>
+          Tax Preparation
+        </option><option value='1788'>
+          Tea
+        </option><option value='325'>
+          Telecommunications
+        </option><option value='718'>
+          Telemarketing
+        </option><option value='665'>
+          Television Stations
+        </option><option value='1120'>
+          Theatres
+        </option><option value='1767'>
+          Thermal Scanners
+        </option><option value='714'>
+          Title Insurance
+        </option><option value='330'>
+          Tourism
+        </option><option value='537'>
+          Tours
+        </option><option value='1774'>
+          Traffic Management
+        </option><option value='333'>
+          Training
+        </option><option value='334'>
+          Translation Services
+        </option><option value='1318'>
+          Transportation Services
+        </option><option value='336'>
+          Travel Agencies
+        </option><option value='1492'>
+          Travel Management
+        </option><option value='337'>
+          Trophies
+        </option><option value='1763'>
+          Turbines
+        </option><option value='1801'>
+          Tutors
+        </option><option value='339'>
+          Unclaimed Property
+        </option><option value='1775'>
+          Upholstery
+        </option><option value='1635'>
+          Vaccinations
+        </option><option value='1446'>
+          Valves
+        </option><option value='1548'>
+          Veterans
+        </option><option value='493'>
+          Veterinarians
+        </option><option value='716'>
+          Video Production
+        </option><option value='1799'>
+          Virtual Tours
+        </option><option value='419'>
+          Vitamins
+        </option><option value='1777'>
+          Wallcoverings
+        </option><option value='1689'>
+          Waste Management
+        </option><option value='1784'>
+          Watches
+        </option><option value='947'>
+          Website Development
+        </option><option value='1416'>
+          Weddings
+        </option><option value='693'>
+          Weight Loss
+        </option><option value='1429'>
+          Wellness Center
+        </option><option value='1421'>
+          Wheelchairs & Scooters
+        </option><option value='900'>
+          Wholesalers
+        </option><option value='1696'>
+          Window Treatments
+        </option><option value='1806'>
+          Wireless Services
+        </option><option value='1680'>
+          Writers
+        </option><option value='357'>
+          Yachts
+        </option>            </select>
+            <br/>
+            Or
+            <br/>
+            <input type="text" id="search" name="search" placeholder="Search by Business Name or Keyword"
+                   value=""/>
+            <br/>
+            <input type="submit" class="button" name="submit" value="Search"/>
+        </form>
+    </div>
+    <br/>
+            <div style="width:100%; text-align:center;">
+            Showing 76-100 of 1014, Page 4 of 41        </div>
+        <br/>
+        <a href='?search=&page=3' class='button' style='float:left;'>Previous Page</a><a href='?search=&page=5' class='button' style='float:right';>Next Page</a>        <br/>
+        <br/>
+        <br/>
+        <div class="business">
+  <!-- <div class="business_name">
+    
+Arim Inc.  </div>
+  <p class="business_description">
+   
+ Arim Inc was established in 2000 with a commitment to offer our customers exceptional products and service. We are an international manufacturer and supplier of the highest quality specialty aggregates.
+
+We provide a wide variety of products from the highest quality sources directly to you with excellent pricing. Arim Inc aggregates are used in terrazzo, decorative concrete, countertops, landscaping and wherever aggregates are needed.
+
+Our attention to flawless service makes us an essential part of our customers projects again and again. Our customer service department is dedicated to helping you find the right products for your project and assist you throughout the entire process.
+Contact Us   today and let Arim Inc become your trusted source for all your aggregate needs!  </p>
+  <a href="directory_detail.php?b=119828" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Arim Inc.</h3>
+        <p id="business_description">
+            Arim Inc was established in 2000 with a commitment to offer our customers exceptional products and service. We are an international manufacturer and supplier of the highest quality specialty aggregates.
+
+We provide a wide variety of products from the highest quality sources directly to you with excellent pricing. Arim Inc aggregates are used in terrazzo, decorative concrete, countertops, landscaping and wherever aggregates are needed.
+
+Our attention to flawless service makes us an essential part of our customers projects again and again. Our customer service department is dedicated to helping you find the right products for your project and assist you throughout the entire process.
+Contact Us   today and let Arim Inc become your trusted source for all your aggregate needs!        </p>
+        <div id="business_info">
+            <span>Contact Name: Anil  Bandari </span><br />
+            <span>Phone: 201-710-7810 </span><br />
+            <span>Email: <a href="mailto: anil.bandari@ariminc.com">anil.bandari@ariminc.com</a></span><br />
+            <span>Website: <a href="http://www.ariminc.com" target="_blank">www.ariminc.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/  New York, NY USA " target="_blank">  New York, NY USA </a></span>
+        </div>
+    </div>
+    <div class="post_image">
+        <img class="post_image" src="uploads/Arim Logo.png" onerror="this.style.display='none'" style="max-height: 244px; max-width: 250px;"/>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Arlo Hotels  </div>
+  <p class="business_description">
+   
+ Arlo is your destination among the best boutique hotels in NYC. We provide the quintessential New York lifestyle hotel experience for guests who are looking to immerse themselves in the art and culture of our city. If you want to live like a local while indulging in our luxury amenities and exploring the urban landscape, make Arlo your homebase.  </p>
+  <a href="directory_detail.php?b=118930" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Arlo Hotels</h3>
+        <p id="business_description">
+            Arlo is your destination among the best boutique hotels in NYC. We provide the quintessential New York lifestyle hotel experience for guests who are looking to immerse themselves in the art and culture of our city. If you want to live like a local while indulging in our luxury amenities and exploring the urban landscape, make Arlo your homebase.        </p>
+        <div id="business_info">
+            <span>Contact Name: Katherine  Solomon</span><br />
+            <span>Phone: 646-518-8887</span><br />
+            <span>Email: <a href="mailto: ksolomon@arlohotels.com">ksolomon@arlohotels.com</a></span><br />
+            <span>Website: <a href="http://www.arlohotels.com" target="_blank">www.arlohotels.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/231 Hudson Street  New York, NY USA 10013" target="_blank">231 Hudson Street  New York, NY USA 10013</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Arrow Transfer & Storage, Inc.  </div>
+  <p class="business_description">
+   
+ Moving, storage & shredding company  </p>
+  <a href="directory_detail.php?b=117698" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Arrow Transfer & Storage, Inc.</h3>
+        <p id="business_description">
+            Moving, storage & shredding company        </p>
+        <div id="business_info">
+            <span>Contact Name: Rich Renner</span><br />
+            <span>Phone: 5168279292</span><br />
+            <span>Email: <a href="mailto: rrenner@arrowmovers.com">rrenner@arrowmovers.com</a></span><br />
+            <span>Website: <a href="http://www.arrowmovers.com" target="_blank">www.arrowmovers.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/146 Miller Place  Hicksville, NY UNITED STATES 11801" target="_blank">146 Miller Place  Hicksville, NY UNITED STATES 11801</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Art is Liberty  </div>
+  <p class="business_description">
+   
+ Renting office and artist space in a wonderful historic building in Liberty, NY, in the Sullivan County Catskills region, minutes away from Route 17 and a direct line to New York City and Binghamton.  </p>
+  <a href="directory_detail.php?b=119627" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Art is Liberty</h3>
+        <p id="business_description">
+            Renting office and artist space in a wonderful historic building in Liberty, NY, in the Sullivan County Catskills region, minutes away from Route 17 and a direct line to New York City and Binghamton.        </p>
+        <div id="business_info">
+            <span>Contact Name: Kristopher  Neidecker</span><br />
+            <span>Phone: 845-866-6000</span><br />
+            <span>Email: <a href="mailto: kris@klneidecker.com">kris@klneidecker.com</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/59 North Main Street  Liberty, NY USA 12754" target="_blank">59 North Main Street  Liberty, NY USA 12754</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Ashcon LLC  </div>
+  <p class="business_description">
+   
+ Ashcon International Inc. is a young and dynamic company based in Mississauga, Canada. Our activities are focused on marketing/exporting/ purchase management of a wide variety of products related to the engineering field - equipment, parts and supplies. We support new and existing facilities and companies worldwide. We have no minimum orders and guarantee a response whatever the clients requirement might be. Ashcon International is managed by professionals with hands-on experience in their respective fields who understand and appreciate the customer requirements. The company is comprised of the following divisions. 
+Medical 
+Oil & Gas 
+Electro Mechanical 
+Ashcon Products 
+We market and promote a wide range of products related to the above fields from reputed manufacturers worldwide. Our wide and varied network of suppliers enables us to meet the customers expectations.  </p>
+  <a href="directory_detail.php?b=7594" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Ashcon LLC</h3>
+        <p id="business_description">
+            Ashcon International Inc. is a young and dynamic company based in Mississauga, Canada. Our activities are focused on marketing/exporting/ purchase management of a wide variety of products related to the engineering field - equipment, parts and supplies. We support new and existing facilities and companies worldwide. We have no minimum orders and guarantee a response whatever the clients requirement might be. Ashcon International is managed by professionals with hands-on experience in their respective fields who understand and appreciate the customer requirements. The company is comprised of the following divisions. 
+Medical 
+Oil & Gas 
+Electro Mechanical 
+Ashcon Products 
+We market and promote a wide range of products related to the above fields from reputed manufacturers worldwide. Our wide and varied network of suppliers enables us to meet the customers expectations.        </p>
+        <div id="business_info">
+            <span>Contact Name: Javed Ashai</span><br />
+            <span>Phone: 646-719-8159</span><br />
+            <span>Email: <a href="mailto: jashai@ashcoint.com">jashai@ashcoint.com</a></span><br />
+            <span>Website: <a href="http://www.ashcoint.com" target="_blank">www.ashcoint.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/304 Park Avenue South, 11th floor  New York, NY UNITED STATES 10010" target="_blank">304 Park Avenue South, 11th floor  New York, NY UNITED STATES 10010</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Assuredenvironments  </div>
+  <p class="business_description">
+   
+   </p>
+  <a href="directory_detail.php?b=43" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Assuredenvironments</h3>
+        <p id="business_description">
+                    </p>
+        <div id="business_info">
+            <span>Contact Name: Stephen DuBon</span><br />
+            <span>Phone: 212-709-7238</span><br />
+            <span>Email: <a href="mailto: sdubon@assuredenvironments.com">sdubon@assuredenvironments.com</a></span><br />
+            <span>Website: <a href="http://www.assuredenvironments.com" target="_blank">www.assuredenvironments.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/45 Broadway  New York, NY UNITED STATES 10006" target="_blank">45 Broadway  New York, NY UNITED STATES 10006</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+        <img class="post_image" src="uploads/" onerror="this.style.display='none'" style="max-height: 244px; max-width: 250px;"/>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+AT&T  </div>
+  <p class="business_description">
+   
+ AT&T provides wireless and wired products to consumers and businesses both domestically and internationally.  </p>
+  <a href="directory_detail.php?b=119901" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>AT&T</h3>
+        <p id="business_description">
+            AT&T provides wireless and wired products to consumers and businesses both domestically and internationally.        </p>
+        <div id="business_info">
+            <span>Contact Name: ROBERT MADSEN</span><br />
+            <span>Phone: 912-323-7430</span><br />
+            <span>Email: <a href="mailto: RX902V@ATT.COM">RX902V@ATT.COM</a></span><br />
+            <span>Website: <a href="http://WWW.ATT.COM" target="_blank">WWW.ATT.COM</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/1 ROCKEFELLER PLAZA  NEW YORK, NY USA 10020" target="_blank">1 ROCKEFELLER PLAZA  NEW YORK, NY USA 10020</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Atelier Sucre  </div>
+  <p class="business_description">
+   
+ Pastry and cooking workshops and food events.
+Atelier Sucré is the vision of New York-based pastry Chef Simon Herfray. In his kitchen, Chef Simon utilizes state of the art appliances and tools to create culinary delights that are truly breathtaking. He and his team provide high quality French pastries and cooking experiences. Chef Simon can create a specific menu of his seasonal pastries to suit your taste.  </p>
+  <a href="directory_detail.php?b=119563" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Atelier Sucre</h3>
+        <p id="business_description">
+            Pastry and cooking workshops and food events.
+Atelier Sucré is the vision of New York-based pastry Chef Simon Herfray. In his kitchen, Chef Simon utilizes state of the art appliances and tools to create culinary delights that are truly breathtaking. He and his team provide high quality French pastries and cooking experiences. Chef Simon can create a specific menu of his seasonal pastries to suit your taste.        </p>
+        <div id="business_info">
+            <span>Contact Name: Simon  Herfray</span><br />
+            <span>Phone: 567-703-6227</span><br />
+            <span>Email: <a href="mailto: info@ateliersucreny.com">info@ateliersucreny.com</a></span><br />
+            <span>Website: <a href="http://www.ateliersucreny.com" target="_blank">www.ateliersucreny.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/104 East 7th Street  New York, NY USA 10009" target="_blank">104 East 7th Street  New York, NY USA 10009</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Atlantic Essential Products Inc.  </div>
+  <p class="business_description">
+   
+ Vitamin and supplement manufacturer Atlantic Essential Products, Inc. has been a leader in the health product manufacturing industry for more than a decade. We produce private label supplements and other health products for retailers and distributors worldwide, and we are committed to excellence in both the products we create and the services we provide. 
+
+All of our manufacturing takes place in our 30,000 sq. ft. facility, where we have a state-of-the-art production line with a high production capacity. Our facility also houses microbiological and analytical labs, which are used to complete comprehensive tests on all raw ingredients and final products. When you hire us as your vitamin manufacturer, you can feel confident knowing that your products have been thoroughly tested to ensure optimal levels of purity, strength, conformity, identity, and uniformity. Additionally, because Atlantic EP is a cGMP certified supplement manufacturer, all of our manufacturing practices and machines meet the strictest standards set by the FDA. Vitamin and supplement companies can trust us to provide them with effective supplements that have been proven safe for consumers.
+  </p>
+  <a href="directory_detail.php?b=5722" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Atlantic Essential Products Inc.</h3>
+        <p id="business_description">
+            Vitamin and supplement manufacturer Atlantic Essential Products, Inc. has been a leader in the health product manufacturing industry for more than a decade. We produce private label supplements and other health products for retailers and distributors worldwide, and we are committed to excellence in both the products we create and the services we provide. 
+
+All of our manufacturing takes place in our 30,000 sq. ft. facility, where we have a state-of-the-art production line with a high production capacity. Our facility also houses microbiological and analytical labs, which are used to complete comprehensive tests on all raw ingredients and final products. When you hire us as your vitamin manufacturer, you can feel confident knowing that your products have been thoroughly tested to ensure optimal levels of purity, strength, conformity, identity, and uniformity. Additionally, because Atlantic EP is a cGMP certified supplement manufacturer, all of our manufacturing practices and machines meet the strictest standards set by the FDA. Vitamin and supplement companies can trust us to provide them with effective supplements that have been proven safe for consumers.
+        </p>
+        <div id="business_info">
+            <span>Contact Name: Selven Sam</span><br />
+            <span>Phone: 631-434-8333</span><br />
+            <span>Email: <a href="mailto: selvensam@gmail.com">selvensam@gmail.com</a></span><br />
+            <span>Website: <a href="http://www.atlanticepny.com" target="_blank">www.atlanticepny.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/7 Oser Avenue  Hauppauge, NY UNITED STATES 11788" target="_blank">7 Oser Avenue  Hauppauge, NY UNITED STATES 11788</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Atlantic Gem Corporation  </div>
+  <p class="business_description">
+   
+ Precious gemstone and diamond wholesaler  </p>
+  <a href="directory_detail.php?b=119651" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Atlantic Gem Corporation</h3>
+        <p id="business_description">
+            Precious gemstone and diamond wholesaler        </p>
+        <div id="business_info">
+            <span>Contact Name: Eddie Livian</span><br />
+            <span>Phone: 212-221-5777</span><br />
+            <span>Email: <a href="mailto: eddie@atlanticgem.com">eddie@atlanticgem.com</a></span><br />
+            <span>Website: <a href="http://www.atlanticgem.com" target="_blank">www.atlanticgem.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/15 West 47th Street, Suite 1207  New York, NY USA 10036" target="_blank">15 West 47th Street, Suite 1207  New York, NY USA 10036</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Atlantic GMAT Tutoring  </div>
+  <p class="business_description">
+   
+ Led by GMAT tutor and test prep expert Andrew Geller, Atlantic GMAT Tutoring provides customized, creative, and nuanced GMAT preparation in NYC and Online. Our GMAT tutors have years of experience helping people achieve their MBA goals.  </p>
+  <a href="directory_detail.php?b=119912" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Atlantic GMAT Tutoring</h3>
+        <p id="business_description">
+            Led by GMAT tutor and test prep expert Andrew Geller, Atlantic GMAT Tutoring provides customized, creative, and nuanced GMAT preparation in NYC and Online. Our GMAT tutors have years of experience helping people achieve their MBA goals.        </p>
+        <div id="business_info">
+            <span>Contact Name: Andrew Geller</span><br />
+            <span>Phone: 3476693545</span><br />
+            <span>Email: <a href="mailto: andrew@atlanticgmat.com">andrew@atlanticgmat.com</a></span><br />
+            <span>Website: <a href="http://https://atlanticgmat.com/" target="_blank">https://atlanticgmat.com/</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/405 East 51st street Suite 5h New York, NY USA 10022" target="_blank">405 East 51st street Suite 5h New York, NY USA 10022</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Atlantic Metro Communications, Inc.  </div>
+  <p class="business_description">
+   
+ Atlantic Metro is a Managed Infrastructure Service Provider delivering innovative IT solutions to businesses nationwide. Our comprehensive solutions include cloud computing, nationwide network connectivity, and secure data centers. Atlantic Metro's suite of customized, affordable, and reliable services enables customers to secure mission-critical data and operations, as well as complement their current IT infrastructure.  </p>
+  <a href="directory_detail.php?b=12308" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Atlantic Metro Communications, Inc.</h3>
+        <p id="business_description">
+            Atlantic Metro is a Managed Infrastructure Service Provider delivering innovative IT solutions to businesses nationwide. Our comprehensive solutions include cloud computing, nationwide network connectivity, and secure data centers. Atlantic Metro's suite of customized, affordable, and reliable services enables customers to secure mission-critical data and operations, as well as complement their current IT infrastructure.        </p>
+        <div id="business_info">
+            <span>Contact Name: Donna Mooney</span><br />
+            <span>Phone: 212-792-9950</span><br />
+            <span>Email: <a href="mailto: dmooney@atlanticmetro.net">dmooney@atlanticmetro.net</a></span><br />
+            <span>Website: <a href="http://www.atlanticmetro.net" target="_blank">www.atlanticmetro.net</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/4 Century Drive  Parsippany, NJ UNITED STATES 07054" target="_blank">4 Century Drive  Parsippany, NJ UNITED STATES 07054</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+        <img class="post_image" src="uploads/Atlantic Metro.jpg" onerror="this.style.display='none'" style="max-height: 244px; max-width: 250px;"/>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Atlantic Westchester Inc.  </div>
+  <p class="business_description">
+   
+ Atlantic Westchester is a commercial Heating Ventilation Air Conditioning (HVAC) company dedicated to making buildings smarter while providing the highest quality service in the industry. Since 1961, we’ve catered to clients across the NY metro area with proactive maintenance, remediation and installation services based on their unique facility needs. Our professional, well-trained team works as a trusted partner to provide our clients with intelligent, energy-efficient solutions that optimize building performance, lower operating costs and improve comfort.  </p>
+  <a href="directory_detail.php?b=119506" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Atlantic Westchester Inc.</h3>
+        <p id="business_description">
+            Atlantic Westchester is a commercial Heating Ventilation Air Conditioning (HVAC) company dedicated to making buildings smarter while providing the highest quality service in the industry. Since 1961, we’ve catered to clients across the NY metro area with proactive maintenance, remediation and installation services based on their unique facility needs. Our professional, well-trained team works as a trusted partner to provide our clients with intelligent, energy-efficient solutions that optimize building performance, lower operating costs and improve comfort.        </p>
+        <div id="business_info">
+            <span>Contact Name: Cathy  Hoffman</span><br />
+            <span>Phone: 914-666-2268</span><br />
+            <span>Email: <a href="mailto: info@atlanticwestchester.com">info@atlanticwestchester.com</a></span><br />
+            <span>Website: <a href="http://www.atlanticwestchester.com" target="_blank">www.atlanticwestchester.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/264 Adam Street  Bedford, NY USA 10507" target="_blank">264 Adam Street  Bedford, NY USA 10507</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Auto Mobile Service Unlimited  </div>
+  <p class="business_description">
+   
+ Auto Mobile Services  </p>
+  <a href="directory_detail.php?b=119026" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Auto Mobile Service Unlimited</h3>
+        <p id="business_description">
+            Auto Mobile Services        </p>
+        <div id="business_info">
+            <span>Contact Name: Mike Porcelli</span><br />
+            <span>Phone: 212-470-7242</span><br />
+            <span>Email: <a href="mailto: mike.amsu@gmail.com">mike.amsu@gmail.com</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/64-31 Central Avenue  Glendale, NY USA 11385" target="_blank">64-31 Central Avenue  Glendale, NY USA 11385</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Avalara  </div>
+  <p class="business_description">
+   
+ Avalara is the leader in sales tax automation for businesses of any size. Our SaaS offering provides the most complete set of transaction tax compliance services available, including tax calculation, exemption certificate management, returns processing and 1099 filing and reporting. Avalara was founded in 2004 and has been recognized as one of the fastest growing companies in America.  </p>
+  <a href="directory_detail.php?b=8863" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Avalara</h3>
+        <p id="business_description">
+            Avalara is the leader in sales tax automation for businesses of any size. Our SaaS offering provides the most complete set of transaction tax compliance services available, including tax calculation, exemption certificate management, returns processing and 1099 filing and reporting. Avalara was founded in 2004 and has been recognized as one of the fastest growing companies in America.        </p>
+        <div id="business_info">
+            <span>Contact Name: Robin Conner</span><br />
+            <span>Phone: 206-826-4900</span><br />
+            <span>Email: <a href="mailto: robin.conner@avalara.com">robin.conner@avalara.com</a></span><br />
+            <span>Website: <a href="http://www.avalara.com" target="_blank">www.avalara.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/100 Ravine Lane NE Ste 220 Bainbridge Island, WA UNITED STATES 98110" target="_blank">100 Ravine Lane NE Ste 220 Bainbridge Island, WA UNITED STATES 98110</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+        <img class="post_image" src="uploads/Avalara (Custom).jpg" onerror="this.style.display='none'" style="max-height: 244px; max-width: 250px;"/>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+AW Hudson Supply Co., Inc.  </div>
+  <p class="business_description">
+   
+ Manufacturer industrial items  </p>
+  <a href="directory_detail.php?b=118162" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>AW Hudson Supply Co., Inc.</h3>
+        <p id="business_description">
+            Manufacturer industrial items        </p>
+        <div id="business_info">
+            <span>Contact Name: Alex Basseches</span><br />
+            <span>Phone: 917-647-1660</span><br />
+            <span>Email: <a href="mailto: alex@awhtank.com">alex@awhtank.com</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/340 W. Englewood Avenue  Teaneck, NJ USA 07666" target="_blank">340 W. Englewood Avenue  Teaneck, NJ USA 07666</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Azad Property Group  </div>
+  <p class="business_description">
+   
+ AZAD Property Group (APG) is a NYC based, off-market, full service, real estate brokerage and consulting firm, focused on structuring deals, employing value added strategies, and performing due diligence and feasibility analyses for our clients. Our clients include institutional investors, property owners, developers, equity and mezzanine financial investors and lenders. We also represent many of the country's largest REITS, which allows us to structure deferred capital gains on the sale of apartment buildings. Clients deal directly with the principals of our firm for all transactions including large apartment buildings, apartment portfolios, development sites, triple net lease investment properties, hotels, office buildings, retail leases and note sales. 
+
+A full service real estate company that specializes in the management and development of a complete commercial property portfolio that spans multiple property types.  Along with a seasoned team of real estate professionals, the founders focus on the continued growth and expansion of its founders' original vision of excellence.  </p>
+  <a href="directory_detail.php?b=16314" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Azad Property Group</h3>
+        <p id="business_description">
+            AZAD Property Group (APG) is a NYC based, off-market, full service, real estate brokerage and consulting firm, focused on structuring deals, employing value added strategies, and performing due diligence and feasibility analyses for our clients. Our clients include institutional investors, property owners, developers, equity and mezzanine financial investors and lenders. We also represent many of the country's largest REITS, which allows us to structure deferred capital gains on the sale of apartment buildings. Clients deal directly with the principals of our firm for all transactions including large apartment buildings, apartment portfolios, development sites, triple net lease investment properties, hotels, office buildings, retail leases and note sales. 
+
+A full service real estate company that specializes in the management and development of a complete commercial property portfolio that spans multiple property types.  Along with a seasoned team of real estate professionals, the founders focus on the continued growth and expansion of its founders' original vision of excellence.        </p>
+        <div id="business_info">
+            <span>Contact Name: Eric Patino</span><br />
+            <span>Phone: 646-692-9482</span><br />
+            <span>Email: <a href="mailto: eric@apgny.com">eric@apgny.com</a></span><br />
+            <span>Website: <a href="http://www.azadpropertygroup.com" target="_blank">www.azadpropertygroup.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/850 7th Avenue, Suite 600  New York, NY UNITED STATES 10019" target="_blank">850 7th Avenue, Suite 600  New York, NY UNITED STATES 10019</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+B & H Art-In-Architecture, LTD  </div>
+  <p class="business_description">
+   
+ Historical restoration since 1990. Stone facade decorative carving & repair. Conservation cleaning - interior  </p>
+  <a href="directory_detail.php?b=117865" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>B & H Art-In-Architecture, LTD</h3>
+        <p id="business_description">
+            Historical restoration since 1990. Stone facade decorative carving & repair. Conservation cleaning - interior        </p>
+        <div id="business_info">
+            <span>Contact Name: Shijia Chen</span><br />
+            <span>Phone: 917-582-8029</span><br />
+            <span>Email: <a href="mailto: chen@bhartinarchitecture.com">chen@bhartinarchitecture.com</a></span><br />
+            <span>Website: <a href="http://www.bandhartinarch.com" target="_blank">www.bandhartinarch.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/59 Gelston Avenue, Suite 6A  Brooklyn, NY USA 11209" target="_blank">59 Gelston Avenue, Suite 6A  Brooklyn, NY USA 11209</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+B Sides Jeans  </div>
+  <p class="business_description">
+   
+ Jeans, clothing  </p>
+  <a href="directory_detail.php?b=119771" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>B Sides Jeans</h3>
+        <p id="business_description">
+            Jeans, clothing        </p>
+        <div id="business_info">
+            <span>Contact Name: Stacy Daily</span><br />
+            <span>Phone: 347-875-0145</span><br />
+            <span>Email: <a href="mailto: info@bsidesjeans.com">info@bsidesjeans.com</a></span><br />
+            <span>Website: <a href="http://www.bsidesjeans.com" target="_blank">www.bsidesjeans.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/225 Troutman Street, Suite C  Brooklyn, NY USA 11237" target="_blank">225 Troutman Street, Suite C  Brooklyn, NY USA 11237</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+B.C. Mechanical, Inc.  </div>
+  <p class="business_description">
+   
+ B.C. Mechanical, Inc. specializes in commercial and industrial HVAC/R, plumbing, wet tapping, pump repair and more. We provide 24/7/365 fully insured service to New York City and the Tri-state area. We are a family owned and operated business.   </p>
+  <a href="directory_detail.php?b=119392" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>B.C. Mechanical, Inc.</h3>
+        <p id="business_description">
+            B.C. Mechanical, Inc. specializes in commercial and industrial HVAC/R, plumbing, wet tapping, pump repair and more. We provide 24/7/365 fully insured service to New York City and the Tri-state area. We are a family owned and operated business.         </p>
+        <div id="business_info">
+            <span>Contact Name: Maryrose Hackett</span><br />
+            <span>Phone: 212-273-3702</span><br />
+            <span>Email: <a href="mailto: info@bcmechanicalnyc.com">info@bcmechanicalnyc.com</a></span><br />
+            <span>Website: <a href="http://www.bcmechanicalnyc.com" target="_blank">www.bcmechanicalnyc.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/4251 Old Route 22 Ste 1  Brewster, NY USA 10509" target="_blank">4251 Old Route 22 Ste 1  Brewster, NY USA 10509</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Babou and Associates  </div>
+  <p class="business_description">
+   
+ entrepreneur  </p>
+  <a href="directory_detail.php?b=119332" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Babou and Associates</h3>
+        <p id="business_description">
+            entrepreneur        </p>
+        <div id="business_info">
+            <span>Contact Name: Cheikh Khadim Babou</span><br />
+            <span>Phone: 347-740-0890</span><br />
+            <span>Email: <a href="mailto: babou.associates@gmail.com">babou.associates@gmail.com</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/  New York, NY USA 10026" target="_blank">  New York, NY USA 10026</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Bactolac Pharmaceutical Inc.  </div>
+  <p class="business_description">
+   
+ Pharmaceutical  </p>
+  <a href="directory_detail.php?b=5778" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Bactolac Pharmaceutical Inc.</h3>
+        <p id="business_description">
+            Pharmaceutical        </p>
+        <div id="business_info">
+            <span>Contact Name: Selven Sam</span><br />
+            <span>Phone: 631-434-8333</span><br />
+            <span>Email: <a href="mailto: selvensam@gmail.com">selvensam@gmail.com</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/7 Oser Avenue  Hauppauge, NY UNITED STATES 11788" target="_blank">7 Oser Avenue  Hauppauge, NY UNITED STATES 11788</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Badgley Mischka Platinum  </div>
+  <p class="business_description">
+   
+ Clothing Designer  </p>
+  <a href="directory_detail.php?b=3066" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Badgley Mischka Platinum</h3>
+        <p id="business_description">
+            Clothing Designer        </p>
+        <div id="business_info">
+            <span>Contact Name:  </span><br />
+            <span>Phone: 212-921-1585</span><br />
+            <span>Email: <a href="mailto: pamela@badgleymischkausa.com">pamela@badgleymischkausa.com</a></span><br />
+            <span>Website: <a href="http://www.badgleymischka.com" target="_blank">www.badgleymischka.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/550 7th Avenue, 22nd floor  New York, NY UNITED STATES 10018" target="_blank">550 7th Avenue, 22nd floor  New York, NY UNITED STATES 10018</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Balducci's  </div>
+  <p class="business_description">
+   
+ Specialty Food Retailer  </p>
+  <a href="directory_detail.php?b=1021" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Balducci's</h3>
+        <p id="business_description">
+            Specialty Food Retailer        </p>
+        <div id="business_info">
+            <span>Contact Name: Jim DeGilio</span><br />
+            <span>Phone: 212-653-8320</span><br />
+            <span>Email: <a href="mailto: "></a></span><br />
+            <span>Website: <a href="http://www.suttongourmet.com" target="_blank">www.suttongourmet.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/6903 Rockledge Drive  Bethesda, MD UNITED STATES 20878" target="_blank">6903 Rockledge Drive  Bethesda, MD UNITED STATES 20878</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+        <img class="post_image" src="uploads/" onerror="this.style.display='none'" style="max-height: 244px; max-width: 250px;"/>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Barbados Investment & Development Corporation  </div>
+  <p class="business_description">
+   
+ The Barbados International Business Promotion Corporation (BIBPC) was established as a statutory corporation on November 10, 2005. The corporation subsequently gained permission to trade under the new name Invest Barbados in 2005; however, it wasn't until October 1, 2006 that the business became operational and the first employee was hired. Effective January 1, 2007 the International Business Division of the Barbados Investment and Development Corporation (BIDC) was transferred to Invest Barbados. Invest Barbados therefore now assumes the responsibility of the promotion of international business.
+ 
+ 
+ 
+Invest Barbados (IB) is an economic development agency of the government of Barbados. IB is responsible for attracting, winning and sustaining international investment for Barbados. The corporation is also responsible for unleashing the export potential of the indigenous services sector and helping to develop and manage the Barbados Business brand
+  </p>
+  <a href="directory_detail.php?b=1047" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Barbados Investment & Development Corporation</h3>
+        <p id="business_description">
+            The Barbados International Business Promotion Corporation (BIBPC) was established as a statutory corporation on November 10, 2005. The corporation subsequently gained permission to trade under the new name Invest Barbados in 2005; however, it wasn't until October 1, 2006 that the business became operational and the first employee was hired. Effective January 1, 2007 the International Business Division of the Barbados Investment and Development Corporation (BIDC) was transferred to Invest Barbados. Invest Barbados therefore now assumes the responsibility of the promotion of international business.
+ 
+ 
+ 
+Invest Barbados (IB) is an economic development agency of the government of Barbados. IB is responsible for attracting, winning and sustaining international investment for Barbados. The corporation is also responsible for unleashing the export potential of the indigenous services sector and helping to develop and manage the Barbados Business brand
+        </p>
+        <div id="business_info">
+            <span>Contact Name: leslie Gillens</span><br />
+            <span>Phone: 212-867-6420</span><br />
+            <span>Email: <a href="mailto: lgittens@investbarbados.org">lgittens@investbarbados.org</a></span><br />
+            <span>Website: <a href="http://www.investbarbados.org" target="_blank">www.investbarbados.org</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/800 Second Avenue  New York, NY UNITED STATES 10017" target="_blank">800 Second Avenue  New York, NY UNITED STATES 10017</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+        <img class="post_image" src="uploads/" onerror="this.style.display='none'" style="max-height: 244px; max-width: 250px;"/>
+    </div>
+    <div class="clearfix"></div>
+</div>
+        <br/>
+        <br/>
+        <a href='?search=&page=3' class='button' style='float:left;'>Previous Page</a><a href='?search=&page=5' class='button' style='float:right';>Next Page</a>
+            <div class="clearfix"></div>
+    <br/>
+    <br/>
+</div>
+
+<div id="footer">
+  <img id="footer_logo" src="images/chamber_logo_color.png" />
+  <br />
+  <br />
+  <div id="mission">
+    The mission of the Chamber is to improve the business climate and quality of
+    living in the New York Metropolitan Area for businesses, workers, residents
+    and visitors.
+  </div>
+  <br />
+  <div id="contact_info">
+    Greater New York Chamber of Commerce <br />
+    20 West 44th Street, 4th Floor <br />
+    New York City, NY 10036 <br  />
+    Phone: 212-CHAMBER (212-686-7220) <br />
+    <br />
+    <div id="buttons">
+      <a class="button" href="./membership_application.php">Join</a>
+      <a class="button" href="./contact.php">Contact Us</a>
+      <a class="button" href="https://visitor.r20.constantcontact.com/manage/optin?v=001kkqO0FxDKZRRxT3tTJHPTwiaTTbEIELDwsv2rFK1UQGdzHjGL91cnsY8moIs8p5BCsv7DgOP7iyR0vpIN5n9k58345gJY9VizlyKZqi-0OGDt9gDxpq4AtYH7fX0KIKyg1gXFEVJtib71SJsPGIUl28BaEhHTtjy">Sign Up For Email Updates</a>
+      <a class="button" href="./privacy.php">Privacy Policy</a>
+    </div>
+  </div>
+  <br />
+  <div id="sitemap">
+    <a href="./directory.php">Business Directory</a> |
+    <a href="./join.php">Benefits</a> |
+    <a href="./news.php">News</a> |
+    <a href="./calendar.php">Events</a> |
+    <a href="./bulletin_board.php">Bulletin Board</a> |
+    <a href="./jobs.php">Job Listings</a> |
+    <a href="./profiles.php">Member Profiles</a> |
+    <a href="./tv_watch.php">Chamber TV</a> |
+    <a href="./board.php">About Us</a>
+  </div>
+</div>
+<div id="copyright">
+  <div id="icons">
+    <a href="https://www.facebook.com/NYChamber/"><img src="icons/facebook.png" /></a>
+    <a href="https://www.instagram.com/nychamber/"><img src="icons/instagram.png" /></a>
+    <a href="https://www.linkedin.com/company/greater-new-york-chamber-of-commerce/?viewAsMember=true"><img src="icons/linkedin.png" /></a>
+    <a href="https://twitter.com/nychamber?lang=en"><img src="icons/twitter.png" /></a> <br />
+  </div>
+  &copy; 2021, Greater New York Chamber of Commerce <br />
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+
+    <script>
+        var cat = all;
+        document.getElementById("category").value = cat;
+    </script>
+</body>
+</html>

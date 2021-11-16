@@ -1,0 +1,1566 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greater New York Chamber of Commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css?t=1637032434"/>
+    <link rel="stylesheet" href="css/global_styling.css?t=1637032434"/>
+    <link rel="stylesheet" href="css/navbar.css?t=1637032434"/>
+    <link rel="stylesheet" href="css/event_bar.css?t=1637032434"/>
+    <link rel="stylesheet" href="css/footer.css?t=1637032434"/>
+    <link rel="stylesheet" href="css/directory.css?t=1637032434"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121896854-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121896854-1');
+    </script>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<div class="navigation" id="nav">
+  <a href="./membership_application.php" class="active">
+    Join The Chamber
+  </a>
+  <a href="./calendar.php">
+    Events
+  </a>
+  <a href="./directory.php">
+    Business Directory
+  </a>
+  <a href="./join.php">
+    Benefits
+  </a>
+  <a href="./news.php">
+    News
+  </a>
+  <a class="navigation__item navigation__item_bgred" href="./bulletin_board.php">
+    COVID-19 Business Resources
+  </a>
+  <a href="./jobs.php">
+    Job Listings
+  </a>
+  <a href="./profiles.php">
+    Member Profiles
+  </a>
+  <a href="./tv_watch.php">
+    Chamber TV
+  </a>
+  <a href="./board.php">
+    About Us
+  </a>
+  <a href="./contact.php">
+    Contact Us
+  </a>
+  <a href="https://visitor.r20.constantcontact.com/manage/optin?v=001kkqO0FxDKZRRxT3tTJHPTwiaTTbEIELDwsv2rFK1UQGdzHjGL91cnsY8moIs8p5BCsv7DgOP7iyR0vpIN5n9k58345gJY9VizlyKZqi-0OGDt9gDxpq4AtYH7fX0KIKyg1gXFEVJtib71SJsPGIUl28BaEhHTtjy">
+    Receive Chamber E-mails
+  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="material-icons">menu</i>
+  </a>
+</div>
+
+<div id="header-image" style="background-image:url('./wallpaper-web.jpg');">
+  <table style="width:100%;background: rgba(0, 0, 0, 0.5);">
+    <tr>
+      <td align="center" valign="middle" style="width:15%;">
+        <a href="/"><img id="icon" src="chamber_logo.png" /></a>
+      </td>
+      <td valign="middle">
+        <div id="navbar_title">
+          Greater New York Chamber of Commerce <br />
+          212-CHAMBER
+        </div>
+      </td>
+      <td align="center">
+        <a href="https://www.facebook.com/NYChamber/"><img src="icons/facebook.png" /></a>
+        <a href="https://www.instagram.com/nychamber/" target="_blank"><img src="icons/instagram.png" /></a>
+        <a href="https://www.linkedin.com/company/greater-new-york-chamber-of-commerce/?viewAsMember=true"><img src="icons/linkedin.png" /></a>
+        <a href="https://twitter.com/nychamber?lang=en"><img src="icons/twitter.png" /></a>
+        <br />
+        <a class="button" href="./visit_nyc.php">Visit NYC!</a>
+        <br />
+        <br />
+      </td>
+    </tr>
+  </table>
+
+  <!-- <script>
+    function display() {
+      $(".nav-dropdown-content").toggle();
+    }
+  </script> -->
+
+  <script>
+      function myFunction() {
+          var x = document.getElementById("nav");
+          if (x.className === "navigation") {
+              x.className += " responsive";
+          } else {
+              x.className = "navigation";
+          }
+      }
+  </script>
+</div>
+<!-- Events Topbar -->
+<div id="events_bar">
+
+    <table cellspacing="0">
+        <tr>
+            <th align="center" class="head-button" style="padding: 20px;text-align:center;"
+                onclick="top.window.location.href='./calendar.php'">
+                UPCOMING EVENTS
+            </th>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=983'">
+                    Open House Networking on Clubhouse                    <div>
+                        November 15, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=976'">
+                    Online Networking Coffee                     <div>
+                        November 16, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=984'">
+                    Online Networking Cocktail Reception                    <div>
+                        November 18, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=985'">
+                    Online Networking Coffee                    <div>
+                        November 23, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=962'">
+                    Holiday Networking Party                    <div>
+                        December 2, 2021                    </div>
+                </td>
+                            <td class="event_block"
+                    onclick="top.window.location.href='event_register.php?event=986'">
+                    How to Use LinkedIn & Grow Your Business                    <div>
+                        December 10, 2021                    </div>
+                </td>
+                    </tr>
+    </table>
+
+</div> <!-- events_bar -->
+
+<div class="content">
+    <h4 style="text-align: center;margin-top:25px; font-weight: bold;">
+        Chamber Member Business Directory
+    </h4>
+    <div id="alphabetize">
+        <a class='button' href='directory.php?cat=all'>Alphabetically Listed</a> <br/>
+        Or Search By Letter:
+        <a class='alph_btn' href='directory.php?l=a'>a</a><a class='alph_btn' href='directory.php?l=b'>b</a><a class='alph_btn' href='directory.php?l=c'>c</a><a class='alph_btn' href='directory.php?l=d'>d</a><a class='alph_btn' href='directory.php?l=e'>e</a><a class='alph_btn' href='directory.php?l=f'>f</a><a class='alph_btn' href='directory.php?l=g'>g</a><a class='alph_btn' href='directory.php?l=h'>h</a><a class='alph_btn' href='directory.php?l=i'>i</a><a class='alph_btn' href='directory.php?l=j'>j</a><a class='alph_btn' href='directory.php?l=k'>k</a><a class='alph_btn' href='directory.php?l=l'>l</a><a class='alph_btn' href='directory.php?l=m'>m</a><a class='alph_btn' href='directory.php?l=n'>n</a><a class='alph_btn' href='directory.php?l=o'>o</a><a class='alph_btn' href='directory.php?l=p'>p</a><a class='alph_btn' href='directory.php?l=q'>q</a><a class='alph_btn' href='directory.php?l=r'>r</a><a class='alph_btn' href='directory.php?l=s'>s</a><a class='alph_btn' href='directory.php?l=t'>t</a><a class='alph_btn' href='directory.php?l=u'>u</a><a class='alph_btn' href='directory.php?l=v'>v</a><a class='alph_btn' href='directory.php?l=w'>w</a><a class='alph_btn' href='directory.php?l=x'>x</a><a class='alph_btn' href='directory.php?l=y'>y</a><a class='alph_btn' href='directory.php?l=z'>z</a>        <a class='alph_btn' href='directory.php?l=num'>0-9</a>
+    </div>
+    <div id="search_bar">
+        Or <br/>
+        <form action="directory_url_creator.php" method="post">
+            <select id="category" name="category">
+                <option value="all" selected>
+                    Search By Category
+                </option>
+                <option value='1'>
+          Accessories
+        </option><option value='1669'>
+          Accommodation
+        </option><option value='967'>
+          Accounting Services
+        </option><option value='1536'>
+          Acting Schools
+        </option><option value='975'>
+          Advertising
+        </option><option value='11'>
+          Airlines
+        </option><option value='1502'>
+          Amusement Park
+        </option><option value='15'>
+          Apparel
+        </option><option value='1638'>
+          Apps
+        </option><option value='1212'>
+          Aquarium
+        </option><option value='902'>
+          Architects
+        </option><option value='368'>
+          Art Gallery
+        </option><option value='1756'>
+          Artificial Intelligence
+        </option><option value='21'>
+          Associations
+        </option><option value='1739'>
+          Auto Services
+        </option><option value='1373'>
+          Automobile Dealer
+        </option><option value='1705'>
+          Automobile Parts
+        </option><option value='1790'>
+          Baby Products
+        </option><option value='1803'>
+          Bakeries
+        </option><option value='30'>
+          Banks
+        </option><option value='1448'>
+          Banquet Facilities
+        </option><option value='621'>
+          Barter
+        </option><option value='31'>
+          Beauty
+        </option><option value='905'>
+          Bed & Breakfast
+        </option><option value='1794'>
+          Bedding
+        </option><option value='33'>
+          Benefits Consulting
+        </option><option value='709'>
+          Beverages
+        </option><option value='1609'>
+          BID - Business Improvement Development
+        </option><option value='382'>
+          Bookkeeping Services
+        </option><option value='1792'>
+          Boxing
+        </option><option value='1584'>
+          Branding
+        </option><option value='1760'>
+          Brands
+        </option><option value='35'>
+          Bridal
+        </option><option value='1620'>
+          Building Consultants
+        </option><option value='567'>
+          Buses
+        </option><option value='658'>
+          Business Brokers
+        </option><option value='1112'>
+          Business Consulting
+        </option><option value='1219'>
+          Business Development
+        </option><option value='41'>
+          Business Etiquette
+        </option><option value='722'>
+          Business Opportunities
+        </option><option value='1808'>
+          Cannabis
+        </option><option value='854'>
+          Car/Limousines
+        </option><option value='1071'>
+          Career Services
+        </option><option value='1773'>
+          Carpentry
+        </option><option value='46'>
+          Carpets/Rugs
+        </option><option value='49'>
+          Casinos
+        </option><option value='50'>
+          Catering
+        </option><option value='1751'>
+          CBD
+        </option><option value='403'>
+          Cellular Services
+        </option><option value='1632'>
+          Cemeteries
+        </option><option value='648'>
+          Chamber of Commerce
+        </option><option value='55'>
+          Child Care
+        </option><option value='1428'>
+          Chimney
+        </option><option value='1268'>
+          Chiropractors
+        </option><option value='625'>
+          Chocolate
+        </option><option value='576'>
+          Churches
+        </option><option value='873'>
+          Cleaning Services
+        </option><option value='1748'>
+          Climbing
+        </option><option value='58'>
+          Clothing
+        </option><option value='1034'>
+          Clothing Designer
+        </option><option value='1539'>
+          Cloud Computing
+        </option><option value='482'>
+          Coaching
+        </option><option value='764'>
+          Coffee Services
+        </option><option value='1566'>
+          Collection Agencies
+        </option><option value='1013'>
+          Comedy Clubs
+        </option><option value='64'>
+          Communications Consultants
+        </option><option value='395'>
+          Community Service
+        </option><option value='68'>
+          Computer Graphic Services
+        </option><option value='929'>
+          computer networking
+        </option><option value='954'>
+          Computer Services
+        </option><option value='1259'>
+          Computer Software/Hardware
+        </option><option value='1765'>
+          Concierge
+        </option><option value='1396'>
+          Conference Centers
+        </option><option value='701'>
+          Conference/Exhibits
+        </option><option value='1509'>
+          Construction
+        </option><option value='1153'>
+          Construction Management
+        </option><option value='77'>
+          Consulates
+        </option><option value='1231'>
+          Consulting
+        </option><option value='727'>
+          Consumer Products
+        </option><option value='79'>
+          Contractors
+        </option><option value='1736'>
+          Cooking
+        </option><option value='1423'>
+          Copier Machines
+        </option><option value='467'>
+          Copying
+        </option><option value='771'>
+          Cosmetic Enhancement
+        </option><option value='82'>
+          Cosmetics
+        </option><option value='1661'>
+          Country Inns
+        </option><option value='1807'>
+          Covid Testing
+        </option><option value='628'>
+          Credit & Debt Improvement
+        </option><option value='86'>
+          Credit Card Services
+        </option><option value='88'>
+          Cruises
+        </option><option value='1703'>
+          Customs Brokers
+        </option><option value='1646'>
+          CyberSecurity
+        </option><option value='1298'>
+          Data Services
+        </option><option value='564'>
+          Data Storage
+        </option><option value='1015'>
+          Day Spa
+        </option><option value='94'>
+          Dentists
+        </option><option value='1761'>
+          Desserts
+        </option><option value='1670'>
+          Detergents
+        </option><option value='99'>
+          Diamonds
+        </option><option value='1572'>
+          Digital Marketing
+        </option><option value='1422'>
+          Disability Services
+        </option><option value='102'>
+          Distributor
+        </option><option value='374'>
+          Doctors
+        </option><option value='962'>
+          Dog Care
+        </option><option value='1059'>
+          Dogs
+        </option><option value='1622'>
+          Domain Registry
+        </option><option value='1733'>
+          Doors
+        </option><option value='1740'>
+          Drafting
+        </option><option value='1747'>
+          Drug Stores
+        </option><option value='1766'>
+          Drug Testing
+        </option><option value='1667'>
+          E Commerce
+        </option><option value='1559'>
+          E-Marketing
+        </option><option value='105'>
+          Economic Development
+        </option><option value='107'>
+          Education
+        </option><option value='1503'>
+          Electricians
+        </option><option value='110'>
+          Electronics
+        </option><option value='1454'>
+          Elevators/Escalators
+        </option><option value='438'>
+          Embassy's
+        </option><option value='113'>
+          Employee Benefits
+        </option><option value='1430'>
+          Employee/Occupational Health
+        </option><option value='114'>
+          Employment Agencies
+        </option><option value='116'>
+          Energy
+        </option><option value='119'>
+          Engineers
+        </option><option value='120'>
+          Entertainment
+        </option><option value='121'>
+          Entrepreneur
+        </option><option value='123'>
+          Environmental Services
+        </option><option value='1030'>
+          Etiquette/Image Consultant
+        </option><option value='129'>
+          Event Planning
+        </option><option value='885'>
+          Event Space
+        </option><option value='1362'>
+          Exhibits
+        </option><option value='1802'>
+          Expense Reductions
+        </option><option value='136'>
+          Export
+        </option><option value='137'>
+          Exterminators
+        </option><option value='945'>
+          Fashion
+        </option><option value='1636'>
+          Fertility
+        </option><option value='1140'>
+          Fertilizers, Petrochemicals
+        </option><option value='1791'>
+          Filtrations
+        </option><option value='144'>
+          Financial Services
+        </option><option value='1592'>
+          Fire Systems
+        </option><option value='151'>
+          Floors
+        </option><option value='153'>
+          Florists
+        </option><option value='1068'>
+          Food
+        </option><option value='1427'>
+          Franchises
+        </option><option value='158'>
+          Freight Forwarding
+        </option><option value='425'>
+          Fuel
+        </option><option value='1730'>
+          Funeral Homes
+        </option><option value='1795'>
+          Fur
+        </option><option value='160'>
+          Furniture
+        </option><option value='1762'>
+          Gemstones
+        </option><option value='677'>
+          Gourmet Foods
+        </option><option value='167'>
+          Government
+        </option><option value='1575'>
+          Governmental Affairs
+        </option><option value='169'>
+          Graphic Design
+        </option><option value='708'>
+          Hair Care
+        </option><option value='171'>
+          Handbags
+        </option><option value='531'>
+          Health & Beauty
+        </option><option value='383'>
+          Health Care
+        </option><option value='415'>
+          Health Discount Program
+        </option><option value='173'>
+          Health Insurance
+        </option><option value='174'>
+          Health Products
+        </option><option value='1694'>
+          Health/Wellness
+        </option><option value='1698'>
+          Healthcare Management
+        </option><option value='417'>
+          Heating and Air Conditioning
+        </option><option value='1135'>
+          Holding Company
+        </option><option value='1104'>
+          Home Accessories
+        </option><option value='180'>
+          Home Care
+        </option><option value='1655'>
+          Home Care Products
+        </option><option value='1385'>
+          Home Employment Opportunities
+        </option><option value='1111'>
+          Hospitals
+        </option><option value='682'>
+          Hostels
+        </option><option value='185'>
+          Hotels
+        </option><option value='1007'>
+          Housing
+        </option><option value='186'>
+          Human Resources
+        </option><option value='1407'>
+          Identity Theft
+        </option><option value='189'>
+          Import/export
+        </option><option value='935'>
+          Information Technology
+        </option><option value='1780'>
+          Installations
+        </option><option value='194'>
+          Insurance
+        </option><option value='195'>
+          Interior Design
+        </option><option value='196'>
+          International Business
+        </option><option value='1521'>
+          Internet Marketing
+        </option><option value='204'>
+          Internet Services
+        </option><option value='1527'>
+          Internships
+        </option><option value='1625'>
+          Interpreters
+        </option><option value='1175'>
+          Investment Services
+        </option><option value='1439'>
+          IT Consultants
+        </option><option value='211'>
+          Jewelry
+        </option><option value='1656'>
+          Labels
+        </option><option value='1753'>
+          Landscapers
+        </option><option value='216'>
+          Law Firms
+        </option><option value='1782'>
+          Lawn Seed
+        </option><option value='1644'>
+          Leather
+        </option><option value='219'>
+          Legal Services
+        </option><option value='508'>
+          Lighting
+        </option><option value='222'>
+          Limousine/Car Service
+        </option><option value='676'>
+          Linens
+        </option><option value='1565'>
+          Loans
+        </option><option value='1745'>
+          Logistics
+        </option><option value='1624'>
+          Luxury Brands
+        </option><option value='233'>
+          Mailing Services
+        </option><option value='235'>
+          Management Consultants
+        </option><option value='238'>
+          Manufacturers
+        </option><option value='1265'>
+          Marine Services
+        </option><option value='760'>
+          Marketing
+        </option><option value='240'>
+          Massage Therapist
+        </option><option value='1266'>
+          Mattresses
+        </option><option value='1634'>
+          Mechanical Instruction
+        </option><option value='491'>
+          Media
+        </option><option value='245'>
+          Medical Equipment/Supplies
+        </option><option value='1499'>
+          Medical Practices
+        </option><option value='1776'>
+          Medical Transportation
+        </option><option value='513'>
+          Meeting Facilities
+        </option><option value='1348'>
+          Mens Clothing
+        </option><option value='713'>
+          Merchant Services
+        </option><option value='246'>
+          Metals
+        </option><option value='1786'>
+          Modeling Agencies
+        </option><option value='862'>
+          Mortgages
+        </option><option value='1570'>
+          Motors
+        </option><option value='251'>
+          Moving and Storage
+        </option><option value='252'>
+          Museums
+        </option><option value='1805'>
+          Music
+        </option><option value='387'>
+          Networking
+        </option><option value='772'>
+          Non Profit
+        </option><option value='263'>
+          Office Equipment/Supplies
+        </option><option value='481'>
+          Office Furniture
+        </option><option value='1797'>
+          Office Space
+        </option><option value='1610'>
+          Oil
+        </option><option value='1783'>
+          Organizing Services
+        </option><option value='1759'>
+          Orthodontics
+        </option><option value='511'>
+          Packaging
+        </option><option value='272'>
+          Painting Contractors
+        </option><option value='274'>
+          Parking
+        </option><option value='1769'>
+          Payment Processing
+        </option><option value='574'>
+          Payroll Services
+        </option><option value='276'>
+          Perfumes
+        </option><option value='1457'>
+          Pest Services
+        </option><option value='479'>
+          Pet Care
+        </option><option value='362'>
+          Pharmaceuticals
+        </option><option value='1772'>
+          Photo Albums
+        </option><option value='1796'>
+          Photo Booths
+        </option><option value='992'>
+          Photographer
+        </option><option value='280'>
+          Physical Therapy
+        </option><option value='1804'>
+          Pillows
+        </option><option value='282'>
+          Plumbing
+        </option><option value='1793'>
+          Podiatrists
+        </option><option value='1768'>
+          PPE
+        </option><option value='589'>
+          Prescriptions
+        </option><option value='1529'>
+          Printing
+        </option><option value='1630'>
+          Process Servers
+        </option><option value='1276'>
+          Product Information
+        </option><option value='739'>
+          Production Companies
+        </option><option value='288'>
+          Promotional Products
+        </option><option value='1523'>
+          Psychiatrists
+        </option><option value='291'>
+          Public Relations
+        </option><option value='1512'>
+          Raceway
+        </option><option value='293'>
+          Radio
+        </option><option value='1779'>
+          Rafting
+        </option><option value='294'>
+          Real Estate
+        </option><option value='1743'>
+          Real Estate Management
+        </option><option value='1146'>
+          Real Estate/Financial Services
+        </option><option value='1770'>
+          Recovery Assets
+        </option><option value='1326'>
+          Relocation Services
+        </option><option value='495'>
+          Resorts
+        </option><option value='1658'>
+          Restaurant Maintenance
+        </option><option value='298'>
+          Restaurants
+        </option><option value='1574'>
+          Restoration
+        </option><option value='518'>
+          Retirement Living
+        </option><option value='1778'>
+          Roofing
+        </option><option value='1660'>
+          Safety
+        </option><option value='1306'>
+          Sales/Marketing Services
+        </option><option value='305'>
+          Security
+        </option><option value='1354'>
+          Security & Private Investigations
+        </option><option value='1480'>
+          Senior Care
+        </option><option value='1781'>
+          Shelter
+        </option><option value='307'>
+          Shipping
+        </option><option value='1731'>
+          Shredding
+        </option><option value='1789'>
+          Signs
+        </option><option value='859'>
+          Skin Care
+        </option><option value='1193'>
+          Sleepwear
+        </option><option value='1066'>
+          Software
+        </option><option value='1800'>
+          Speakers
+        </option><option value='1390'>
+          Spices
+        </option><option value='316'>
+          Sports
+        </option><option value='1687'>
+          Staffing Agencies
+        </option><option value='1750'>
+          Steel
+        </option><option value='463'>
+          Storage
+        </option><option value='1357'>
+          Substance Abuse Clinic
+        </option><option value='1798'>
+          Sun Protective Apparel
+        </option><option value='321'>
+          Supermarkets
+        </option><option value='1652'>
+          Sustainability
+        </option><option value='1787'>
+          Swimwear
+        </option><option value='487'>
+          Tax Preparation
+        </option><option value='1788'>
+          Tea
+        </option><option value='325'>
+          Telecommunications
+        </option><option value='718'>
+          Telemarketing
+        </option><option value='665'>
+          Television Stations
+        </option><option value='1120'>
+          Theatres
+        </option><option value='1767'>
+          Thermal Scanners
+        </option><option value='714'>
+          Title Insurance
+        </option><option value='330'>
+          Tourism
+        </option><option value='537'>
+          Tours
+        </option><option value='1774'>
+          Traffic Management
+        </option><option value='333'>
+          Training
+        </option><option value='334'>
+          Translation Services
+        </option><option value='1318'>
+          Transportation Services
+        </option><option value='336'>
+          Travel Agencies
+        </option><option value='1492'>
+          Travel Management
+        </option><option value='337'>
+          Trophies
+        </option><option value='1763'>
+          Turbines
+        </option><option value='1801'>
+          Tutors
+        </option><option value='339'>
+          Unclaimed Property
+        </option><option value='1775'>
+          Upholstery
+        </option><option value='1635'>
+          Vaccinations
+        </option><option value='1446'>
+          Valves
+        </option><option value='1548'>
+          Veterans
+        </option><option value='493'>
+          Veterinarians
+        </option><option value='716'>
+          Video Production
+        </option><option value='1799'>
+          Virtual Tours
+        </option><option value='419'>
+          Vitamins
+        </option><option value='1777'>
+          Wallcoverings
+        </option><option value='1689'>
+          Waste Management
+        </option><option value='1784'>
+          Watches
+        </option><option value='947'>
+          Website Development
+        </option><option value='1416'>
+          Weddings
+        </option><option value='693'>
+          Weight Loss
+        </option><option value='1429'>
+          Wellness Center
+        </option><option value='1421'>
+          Wheelchairs & Scooters
+        </option><option value='900'>
+          Wholesalers
+        </option><option value='1696'>
+          Window Treatments
+        </option><option value='1806'>
+          Wireless Services
+        </option><option value='1680'>
+          Writers
+        </option><option value='357'>
+          Yachts
+        </option>            </select>
+            <br/>
+            Or
+            <br/>
+            <input type="text" id="search" name="search" placeholder="Search by Business Name or Keyword"
+                   value=""/>
+            <br/>
+            <input type="submit" class="button" name="submit" value="Search"/>
+        </form>
+    </div>
+    <br/>
+            <div style="width:100%; text-align:center;">
+            Showing 501-525 of 1014, Page 21 of 41        </div>
+        <br/>
+        <a href='?search=&page=20' class='button' style='float:left;'>Previous Page</a><a href='?search=&page=22' class='button' style='float:right';>Next Page</a>        <br/>
+        <br/>
+        <br/>
+        <div class="business">
+  <!-- <div class="business_name">
+    
+ICC Chemical Corporation  </div>
+  <p class="business_description">
+   
+ Chemical Trading  </p>
+  <a href="directory_detail.php?b=118329" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>ICC Chemical Corporation</h3>
+        <p id="business_description">
+            Chemical Trading        </p>
+        <div id="business_info">
+            <span>Contact Name: Naveen Chandra</span><br />
+            <span>Phone: 212-521-1773</span><br />
+            <span>Email: <a href="mailto: faa@iccchem.com">faa@iccchem.com</a></span><br />
+            <span>Website: <a href="http://www.iccchem.com" target="_blank">www.iccchem.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/460 Park Avenue  New York, NY UNITED STATES 10022" target="_blank">460 Park Avenue  New York, NY UNITED STATES 10022</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+ICCS & Co., LLC.  </div>
+  <p class="business_description">
+   
+ ICCS is a leading IT and Telecom Provider located in NYC. We leverage our 25+ years of expertise to develop tailored IT & Technology solutions to support our clients' business requirements. We help businesses of all sizes grow by providing cutting-edge solution design, implementation, and support. We can help your business move into the future while reducing operational costs and get a foothold on modern and emerging technologies.  Recent growth and expanded industries served (Legal, Professional Services, Wholesale/Manufacturing, Education and Non Profit) allow ICCS to take an even larger role in clients? day to day operations.  To learn more, visit http://www.iccsllc.com  </p>
+  <a href="directory_detail.php?b=26321" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>ICCS & Co., LLC.</h3>
+        <p id="business_description">
+            ICCS is a leading IT and Telecom Provider located in NYC. We leverage our 25+ years of expertise to develop tailored IT & Technology solutions to support our clients' business requirements. We help businesses of all sizes grow by providing cutting-edge solution design, implementation, and support. We can help your business move into the future while reducing operational costs and get a foothold on modern and emerging technologies.  Recent growth and expanded industries served (Legal, Professional Services, Wholesale/Manufacturing, Education and Non Profit) allow ICCS to take an even larger role in clients? day to day operations.  To learn more, visit http://www.iccsllc.com        </p>
+        <div id="business_info">
+            <span>Contact Name: Ronnie Parisella</span><br />
+            <span>Phone: (646) 496-0235</span><br />
+            <span>Email: <a href="mailto: rparisella@iccsllc.com">rparisella@iccsllc.com</a></span><br />
+            <span>Website: <a href="http://www.iccsllc.com" target="_blank">www.iccsllc.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/42 West 38th Street 3rd Floor New York, NY UNITED STATES 10018" target="_blank">42 West 38th Street 3rd Floor New York, NY UNITED STATES 10018</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+ICU Surveillance LLC  </div>
+  <p class="business_description">
+   
+ ICU Surveillance has been a trusted security camera business since 1998. We are Reaching out to those whose business has been directly impacted by COVID-19, and for those who want to take the right security steps to better their business.
+
+Due to the recent COVID-19 pandemic, there has been a high demand for temperature thermal scanning cameras so that school districts, municipal governments, and businesses can provide a safe environment for their students, employees, and visitors. 
+
+We know how important it is for everyone to return to their normal operations, and to do so precautions will have to be taken. Temperature thermal scanning is a quick and easy way to make sure nobody steps inside your facility with a high body temperature, one of the most common symptoms of COVID-19.   </p>
+  <a href="directory_detail.php?b=119520" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>ICU Surveillance LLC</h3>
+        <p id="business_description">
+            ICU Surveillance has been a trusted security camera business since 1998. We are Reaching out to those whose business has been directly impacted by COVID-19, and for those who want to take the right security steps to better their business.
+
+Due to the recent COVID-19 pandemic, there has been a high demand for temperature thermal scanning cameras so that school districts, municipal governments, and businesses can provide a safe environment for their students, employees, and visitors. 
+
+We know how important it is for everyone to return to their normal operations, and to do so precautions will have to be taken. Temperature thermal scanning is a quick and easy way to make sure nobody steps inside your facility with a high body temperature, one of the most common symptoms of COVID-19.         </p>
+        <div id="business_info">
+            <span>Contact Name: Patrick Reese</span><br />
+            <span>Phone: 570-575-6408</span><br />
+            <span>Email: <a href="mailto: pjreese@icusurveillances.com">pjreese@icusurveillances.com</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/939 Meade Street  Dunmore, PA USA 18512" target="_blank">939 Meade Street  Dunmore, PA USA 18512</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+iFranchise Group, Inc.  </div>
+  <p class="business_description">
+   
+ The iFranchise Group is comprised of the nation's top professionals in strategic planning, operations documentation, franchisee training, franchise marketing and sales, and executive recruiting for franchisors.  Whether you are an experienced franchisor refining or improving your business, or looking to expand through franchising for the first time, the iFranchise Group can provide the real-world guidance and hands-on assistance needed to reach your full growth potential.  Contact us today for a free copy of Mark Siebert, iFranchise Group CEO, Franchise Your Business, The Guide to Employing the Greatest Growth Strategy Ever.  </p>
+  <a href="directory_detail.php?b=117846" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>iFranchise Group, Inc.</h3>
+        <p id="business_description">
+            The iFranchise Group is comprised of the nation's top professionals in strategic planning, operations documentation, franchisee training, franchise marketing and sales, and executive recruiting for franchisors.  Whether you are an experienced franchisor refining or improving your business, or looking to expand through franchising for the first time, the iFranchise Group can provide the real-world guidance and hands-on assistance needed to reach your full growth potential.  Contact us today for a free copy of Mark Siebert, iFranchise Group CEO, Franchise Your Business, The Guide to Employing the Greatest Growth Strategy Ever.        </p>
+        <div id="business_info">
+            <span>Contact Name: Judy Janusz</span><br />
+            <span>Phone: 708-957-2300</span><br />
+            <span>Email: <a href="mailto: jjanusz@ifranchisegroup.com">jjanusz@ifranchisegroup.com</a></span><br />
+            <span>Website: <a href="http://www.ifranchisegroup.com" target="_blank">www.ifranchisegroup.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/905 W. 175th Street, 2nd floor  Homewood, IL  60430" target="_blank">905 W. 175th Street, 2nd floor  Homewood, IL  60430</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+IGH International Corp.  </div>
+  <p class="business_description">
+   
+ Aerospace Component Distributor  </p>
+  <a href="directory_detail.php?b=119579" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>IGH International Corp.</h3>
+        <p id="business_description">
+            Aerospace Component Distributor        </p>
+        <div id="business_info">
+            <span>Contact Name: Chris Park</span><br />
+            <span>Phone: 516-466-3800</span><br />
+            <span>Email: <a href="mailto: cpark@ighinternational.com">cpark@ighinternational.com</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/320 Northern Blvd, Suite 18  Great Neck, NY USA 11021" target="_blank">320 Northern Blvd, Suite 18  Great Neck, NY USA 11021</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+IIL Printing  </div>
+  <p class="business_description">
+   
+ IIL Printing extends the IIL promise of value, sustainability and exceptional customer service, providing clients with a wide range of high-quality printed materials to support their evolving needs. This includes experience in printing, packaging, and shipping more than half a million training manuals and support materials all over the world.  </p>
+  <a href="directory_detail.php?b=119543" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>IIL Printing</h3>
+        <p id="business_description">
+            IIL Printing extends the IIL promise of value, sustainability and exceptional customer service, providing clients with a wide range of high-quality printed materials to support their evolving needs. This includes experience in printing, packaging, and shipping more than half a million training manuals and support materials all over the world.        </p>
+        <div id="business_info">
+            <span>Contact Name: Michael Borges</span><br />
+            <span>Phone: 516-578-1859</span><br />
+            <span>Email: <a href="mailto: michael.borges@iil.com">michael.borges@iil.com</a></span><br />
+            <span>Website: <a href="http://www.iilprinting.com" target="_blank">www.iilprinting.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/485 Madison Ave - 13th Floor  New York City, NY USA 10022" target="_blank">485 Madison Ave - 13th Floor  New York City, NY USA 10022</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Imperial Advance  </div>
+  <p class="business_description">
+   
+ Small to medium sized business financing solutions in the US, Canada & Mexico.   </p>
+  <a href="directory_detail.php?b=119830" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Imperial Advance</h3>
+        <p id="business_description">
+            Small to medium sized business financing solutions in the US, Canada & Mexico.         </p>
+        <div id="business_info">
+            <span>Contact Name: Michael Pennartz</span><br />
+            <span>Phone: 5166363002</span><br />
+            <span>Email: <a href="mailto: michael@imperialadvance.com">michael@imperialadvance.com</a></span><br />
+            <span>Website: <a href="http://www.imperialadvance.com" target="_blank">www.imperialadvance.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/500 7th Ave  New York, NY USA 10018" target="_blank">500 7th Ave  New York, NY USA 10018</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Infolytx, Inc.  </div>
+  <p class="business_description">
+   
+ Artificial Intelligence and Machine Learning focused software development startup with solutions using Conversational AI, Natural Language Processing and Computer Vision for the healthcare and retail sectors.  </p>
+  <a href="directory_detail.php?b=119473" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Infolytx, Inc.</h3>
+        <p id="business_description">
+            Artificial Intelligence and Machine Learning focused software development startup with solutions using Conversational AI, Natural Language Processing and Computer Vision for the healthcare and retail sectors.        </p>
+        <div id="business_info">
+            <span>Contact Name: Badrul Husain</span><br />
+            <span>Phone: 9173287274</span><br />
+            <span>Email: <a href="mailto: badrul.husain@infolytx.com">badrul.husain@infolytx.com</a></span><br />
+            <span>Website: <a href="http://www.Infolytx, Inc." target="_blank">www.Infolytx, Inc.</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/244 Fifth Avenue B288 New York, NY USA 10001" target="_blank">244 Fifth Avenue B288 New York, NY USA 10001</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Inner PC  </div>
+  <p class="business_description">
+   
+ Cloud and cyber security consultant- Outsource IT Management Service Company  </p>
+  <a href="directory_detail.php?b=118750" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Inner PC</h3>
+        <p id="business_description">
+            Cloud and cyber security consultant- Outsource IT Management Service Company        </p>
+        <div id="business_info">
+            <span>Contact Name: Dan Fusco</span><br />
+            <span>Phone: 718-878-0020</span><br />
+            <span>Email: <a href="mailto: dan@myinnerpc.com">dan@myinnerpc.com</a></span><br />
+            <span>Website: <a href="http://www.myinnerpc.com" target="_blank">www.myinnerpc.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/301 W. 115th Street, Suite 3K New York New York, NA USA 10026" target="_blank">301 W. 115th Street, Suite 3K New York New York, NA USA 10026</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Innovative Labs  </div>
+  <p class="business_description">
+   
+ Innovative Labs® is a full service custom manufacturer and packager of nutritional supplements. From product development through filling and packaging, we have
+ both the formulating experience and technical expertise to deliver products of uncompromising quality, dependability and performance  </p>
+  <a href="directory_detail.php?b=14547" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Innovative Labs</h3>
+        <p id="business_description">
+            Innovative Labs® is a full service custom manufacturer and packager of nutritional supplements. From product development through filling and packaging, we have
+ both the formulating experience and technical expertise to deliver products of uncompromising quality, dependability and performance        </p>
+        <div id="business_info">
+            <span>Contact Name: Helen Frellick</span><br />
+            <span>Phone: 631-434-7514</span><br />
+            <span>Email: <a href="mailto: hfrellick@innovativelabsny.com">hfrellick@innovativelabsny.com</a></span><br />
+            <span>Website: <a href="http://www.innovativelabsny.com" target="_blank">www.innovativelabsny.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/85 Commerce Drive  Hauppauge, NY UNITED STATES 11788" target="_blank">85 Commerce Drive  Hauppauge, NY UNITED STATES 11788</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Innovative Solutions, INC  </div>
+  <p class="business_description">
+   
+ Enterprise IT - Data Analytics with no ETLs, Cyber Security with Fortinet and SecureWorks, Oracle recommendations and audit protection.  </p>
+  <a href="directory_detail.php?b=119699" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Innovative Solutions, INC</h3>
+        <p id="business_description">
+            Enterprise IT - Data Analytics with no ETLs, Cyber Security with Fortinet and SecureWorks, Oracle recommendations and audit protection.        </p>
+        <div id="business_info">
+            <span>Contact Name: Robert Heriford</span><br />
+            <span>Phone: 719-494-6182</span><br />
+            <span>Email: <a href="mailto: robert.heriford@inn-sols.com">robert.heriford@inn-sols.com</a></span><br />
+            <span>Website: <a href="http://www.inn-sols.com" target="_blank">www.inn-sols.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/170 Hamilton Avenue - Suite 206  White Plains, NY USA 10601" target="_blank">170 Hamilton Avenue - Suite 206  White Plains, NY USA 10601</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Inserra Supermarkets Inc  </div>
+  <p class="business_description">
+   
+   </p>
+  <a href="directory_detail.php?b=1553" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Inserra Supermarkets Inc</h3>
+        <p id="business_description">
+                    </p>
+        <div id="business_info">
+            <span>Contact Name: Lawrence R. Inserra</span><br />
+            <span>Phone: 201-529-5900</span><br />
+            <span>Email: <a href="mailto: "></a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/20 Ridge Road  Mahawah, NJ USA 07430" target="_blank">20 Ridge Road  Mahawah, NJ USA 07430</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+        <img class="post_image" src="uploads/" onerror="this.style.display='none'" style="max-height: 244px; max-width: 250px;"/>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Insignia/ESG  </div>
+  <p class="business_description">
+   
+ Real estate broker, commercial.  </p>
+  <a href="directory_detail.php?b=1377" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Insignia/ESG</h3>
+        <p id="business_description">
+            Real estate broker, commercial.        </p>
+        <div id="business_info">
+            <span>Contact Name: Steve Iaco</span><br />
+            <span>Phone: 212-984-8000</span><br />
+            <span>Email: <a href="mailto: steven.iaco@iesg.com">steven.iaco@iesg.com</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/200 Park Avenue  New York, NY UNITED STATES 10166" target="_blank">200 Park Avenue  New York, NY UNITED STATES 10166</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+        <img class="post_image" src="uploads/" onerror="this.style.display='none'" style="max-height: 244px; max-width: 250px;"/>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Inspire Diagnostics  </div>
+  <p class="business_description">
+   
+ We offer no cost onsite covid tests for all events, as well as no cost at home covid test kits..  if interested, please contact peggy.wang@inspirediagnostics.com  </p>
+  <a href="directory_detail.php?b=119907" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Inspire Diagnostics</h3>
+        <p id="business_description">
+            We offer no cost onsite covid tests for all events, as well as no cost at home covid test kits..  if interested, please contact peggy.wang@inspirediagnostics.com        </p>
+        <div id="business_info">
+            <span>Contact Name: Peggy Wang</span><br />
+            <span>Phone: 929-334-7866</span><br />
+            <span>Email: <a href="mailto: peggy.wang@inspirediagnostics.com">peggy.wang@inspirediagnostics.com</a></span><br />
+            <span>Website: <a href="http://www.inspirediagnostics.com" target="_blank">www.inspirediagnostics.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/26497 Rancho Parkway South  New York, NY USA " target="_blank">26497 Rancho Parkway South  New York, NY USA </a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Institute of Audio Research  </div>
+  <p class="business_description">
+   
+ The Institute of Audio Research is dedicated to the art, business, and technology of audio in all its forms. As such, IAR serves the music, motion picture, multi-media, communications, consumer electronics, and entertainment industries, as well as other employment sectors that demand highly trained audio technicians and producers.  </p>
+  <a href="directory_detail.php?b=118004" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Institute of Audio Research</h3>
+        <p id="business_description">
+            The Institute of Audio Research is dedicated to the art, business, and technology of audio in all its forms. As such, IAR serves the music, motion picture, multi-media, communications, consumer electronics, and entertainment industries, as well as other employment sectors that demand highly trained audio technicians and producers.        </p>
+        <div id="business_info">
+            <span>Contact Name: Norbert Kreuzer</span><br />
+            <span>Phone: 212-777-8550</span><br />
+            <span>Email: <a href="mailto: sjeffries-el@iar.edu">sjeffries-el@iar.edu</a></span><br />
+            <span>Website: <a href="http://" target="_blank"></a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/64 University Place  New York, NY  10003" target="_blank">64 University Place  New York, NY  10003</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Integrate New York  </div>
+  <p class="business_description">
+   
+ Information Technology is an essential part of the business process in nearly every industry.  For most it is not simply a convenience tool, but rather it provides mission critical processing for core business operations.  Its demands however, are notoriously inconsistent.
+Systems fail, backups can be unreliable, and sometimes a computer will crash at 2:00AM.  Integrate New York is fully prepared to plan for these events in advance, and handle them swiftly when they arise at inconvenient times.  We provide a complete menu of technology services for companies which don’t need a full in-house IT department, or a full time tech support staff member.
+  </p>
+  <a href="directory_detail.php?b=12669" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Integrate New York</h3>
+        <p id="business_description">
+            Information Technology is an essential part of the business process in nearly every industry.  For most it is not simply a convenience tool, but rather it provides mission critical processing for core business operations.  Its demands however, are notoriously inconsistent.
+Systems fail, backups can be unreliable, and sometimes a computer will crash at 2:00AM.  Integrate New York is fully prepared to plan for these events in advance, and handle them swiftly when they arise at inconvenient times.  We provide a complete menu of technology services for companies which don’t need a full in-house IT department, or a full time tech support staff member.
+        </p>
+        <div id="business_info">
+            <span>Contact Name: Josh Newman</span><br />
+            <span>Phone: 212-580-8400</span><br />
+            <span>Email: <a href="mailto: josh@integrateny.com">josh@integrateny.com</a></span><br />
+            <span>Website: <a href="http://www.integrateny.com" target="_blank">www.integrateny.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/110 W. 40th Street, Suite 1004  New York, NY  10018" target="_blank">110 W. 40th Street, Suite 1004  New York, NY  10018</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Integrated Security Services, Inc  </div>
+  <p class="business_description">
+   
+ Our seasoned security specialists will help you develop a physical security solution to resist these and other hostile acts. It can be as simple as changing the locks on your door or as advanced as iris scan access control, digital surveillance system and IP CCTV cameras. Each solution will be conceptualized and developed by applying current industry standards, environment, client specification and budget.  </p>
+  <a href="directory_detail.php?b=119849" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Integrated Security Services, Inc</h3>
+        <p id="business_description">
+            Our seasoned security specialists will help you develop a physical security solution to resist these and other hostile acts. It can be as simple as changing the locks on your door or as advanced as iris scan access control, digital surveillance system and IP CCTV cameras. Each solution will be conceptualized and developed by applying current industry standards, environment, client specification and budget.        </p>
+        <div id="business_info">
+            <span>Contact Name: Alan Schissel</span><br />
+            <span>Phone: 212-808-4153</span><br />
+            <span>Email: <a href="mailto: aschissel@intesecurity.com">aschissel@intesecurity.com</a></span><br />
+            <span>Website: <a href="http://www.intesecurity.com" target="_blank">www.intesecurity.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/305 Madison Avenue, Suite 1561  New York, NY USA 10165" target="_blank">305 Madison Avenue, Suite 1561  New York, NY USA 10165</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Interactive Education Concepts  </div>
+  <p class="business_description">
+   
+ E Learning Company  </p>
+  <a href="directory_detail.php?b=119712" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Interactive Education Concepts</h3>
+        <p id="business_description">
+            E Learning Company        </p>
+        <div id="business_info">
+            <span>Contact Name: Brittney Alfaro</span><br />
+            <span>Phone: 818-643-5948</span><br />
+            <span>Email: <a href="mailto: brittneya@improvlearning.com">brittneya@improvlearning.com</a></span><br />
+            <span>Website: <a href="http://www.improvlearning.com" target="_blank">www.improvlearning.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/17316 Ventura Blvd  Encino, CA USA 91316" target="_blank">17316 Ventura Blvd  Encino, CA USA 91316</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+Interface International  </div>
+  <p class="business_description">
+   
+ Hello, are still using Word and Excel or a Notepad to do your everyday work?
+Interface International is specialized in creating customized Desktop, Tablet and Phones applications. We create applications using a cutting-edge technology. We can create an application tailored to your needs, in a matter of weeks with a rapid ROI. One of our application is used by inspectors of the Civil Aviation Authority to control the security of airplanes before they take-off and another is used by a photographer to daily manage his business.
+We are Certified FileMaker Developers and Trainers.  </p>
+  <a href="directory_detail.php?b=18786" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>Interface International</h3>
+        <p id="business_description">
+            Hello, are still using Word and Excel or a Notepad to do your everyday work?
+Interface International is specialized in creating customized Desktop, Tablet and Phones applications. We create applications using a cutting-edge technology. We can create an application tailored to your needs, in a matter of weeks with a rapid ROI. One of our application is used by inspectors of the Civil Aviation Authority to control the security of airplanes before they take-off and another is used by a photographer to daily manage his business.
+We are Certified FileMaker Developers and Trainers.        </p>
+        <div id="business_info">
+            <span>Contact Name: Pierre Coilin</span><br />
+            <span>Phone: 646-644-6919</span><br />
+            <span>Email: <a href="mailto: p.colin@interface-intl.com">p.colin@interface-intl.com</a></span><br />
+            <span>Website: <a href="http://www.interface-intl.com" target="_blank">www.interface-intl.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/55 E 59th Street 15th Floor, (Jade-Fiducial) New York, NY UNITED STATES 10022" target="_blank">55 E 59th Street 15th Floor, (Jade-Fiducial) New York, NY UNITED STATES 10022</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+InterGest Mexico  </div>
+  <p class="business_description">
+   
+ InterGest provides options to enter the Mexican market and offers all regarding administrative services. InterGest also provides outsourcing solutions for accounting.   </p>
+  <a href="directory_detail.php?b=119461" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>InterGest Mexico</h3>
+        <p id="business_description">
+            InterGest provides options to enter the Mexican market and offers all regarding administrative services. InterGest also provides outsourcing solutions for accounting.         </p>
+        <div id="business_info">
+            <span>Contact Name: Gregor  Vorderwülbecke</span><br />
+            <span>Phone: 52 1 222 426 6802</span><br />
+            <span>Email: <a href="mailto: gregor.vorderwuelbecke@intergest.com">gregor.vorderwuelbecke@intergest.com</a></span><br />
+            <span>Website: <a href="http://www.intergest.com" target="_blank">www.intergest.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/Av. Juarez 2925 Office 22-01  Puebla, NA MEX 72160" target="_blank">Av. Juarez 2925 Office 22-01  Puebla, NA MEX 72160</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+International Business Company Formation, Inc.   </div>
+  <p class="business_description">
+   
+ IBCF is a premier provider of international corporate services for legal and tax professionals, corporations and corporate service companies. We offer a wide variety of services including, but not limited to, entity formations, registered agent/registered office, document retrievals and apostille/legalization services in all 50 states, US Territories and international jurisdictions. Through our vast network of international resources, we are able to offer our clients bespoke and competitively priced corporate service solutions. With our experience over the past 20 years we have simplified the intricacies of domestic and international corporate transactions  </p>
+  <a href="directory_detail.php?b=119856" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>International Business Company Formation, Inc. </h3>
+        <p id="business_description">
+            IBCF is a premier provider of international corporate services for legal and tax professionals, corporations and corporate service companies. We offer a wide variety of services including, but not limited to, entity formations, registered agent/registered office, document retrievals and apostille/legalization services in all 50 states, US Territories and international jurisdictions. Through our vast network of international resources, we are able to offer our clients bespoke and competitively priced corporate service solutions. With our experience over the past 20 years we have simplified the intricacies of domestic and international corporate transactions        </p>
+        <div id="business_info">
+            <span>Contact Name: Daniel Steigert </span><br />
+            <span>Phone: 845-398-0900</span><br />
+            <span>Email: <a href="mailto: dsteigert@ibcf.com">dsteigert@ibcf.com</a></span><br />
+            <span>Website: <a href="http://www.ibcf.com" target="_blank">www.ibcf.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/101 Main Street, Suite One   Tappan, NY USA 10983" target="_blank">101 Main Street, Suite One   Tappan, NY USA 10983</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+International Business Promotion, Inc.  </div>
+  <p class="business_description">
+   
+ International Business Promotion, Inc. (IBP, Inc.) was established in New York City in January of 2013 as an international recruiting and marketing company. IBP, Inc. has been introducing many different types of candidates in various industries, depending on the clients’ needs throughout the US.  IBP, Inc. has a large number of candidates who are fluent in Japanese and English.  
+As a marketing company, IBP, Inc. can provide a wide scope of marketing services to American companies to enter into the Japanese market, and vice versa. IBP, Inc. is a certified woman-owned business by the U.S. Small Business Administration.
+  </p>
+  <a href="directory_detail.php?b=15354" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>International Business Promotion, Inc.</h3>
+        <p id="business_description">
+            International Business Promotion, Inc. (IBP, Inc.) was established in New York City in January of 2013 as an international recruiting and marketing company. IBP, Inc. has been introducing many different types of candidates in various industries, depending on the clients’ needs throughout the US.  IBP, Inc. has a large number of candidates who are fluent in Japanese and English.  
+As a marketing company, IBP, Inc. can provide a wide scope of marketing services to American companies to enter into the Japanese market, and vice versa. IBP, Inc. is a certified woman-owned business by the U.S. Small Business Administration.
+        </p>
+        <div id="business_info">
+            <span>Contact Name: Miyuki Hori</span><br />
+            <span>Phone: (646) 880-4470</span><br />
+            <span>Email: <a href="mailto: mhori@ibp-nyc.com">mhori@ibp-nyc.com</a></span><br />
+            <span>Website: <a href="http://www.ibp-nyc.com" target="_blank">www.ibp-nyc.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/1460 Broadway,  New York, NY USA 10036" target="_blank">1460 Broadway,  New York, NY USA 10036</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+International Golden Gateway Consulting Services  </div>
+  <p class="business_description">
+   
+ International Business  </p>
+  <a href="directory_detail.php?b=119432" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>International Golden Gateway Consulting Services</h3>
+        <p id="business_description">
+            International Business        </p>
+        <div id="business_info">
+            <span>Contact Name: Bijay Man Singh</span><br />
+            <span>Phone: 3474717333</span><br />
+            <span>Email: <a href="mailto: info@iggcsglobal.com.">info@iggcsglobal.com.</a></span><br />
+            <span>Website: <a href="http://www.iggcsglobal.com" target="_blank">www.iggcsglobal.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/51-01 39th Avenue, #M63  Sunnyside, NY USA 11104" target="_blank">51-01 39th Avenue, #M63  Sunnyside, NY USA 11104</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+International Golf Logistics  </div>
+  <p class="business_description">
+   
+ International Golf Logistics LLC is a full-service travel and logistics provider serving professional athletes, marketers and Corporations on a global level. Let us navigate the complex world of professional logistics allowing you to maximize your business and performance outcomes. Our core values are Experience, Trust, Value for Money and Excellence. Founded in 2016, we’re headquartered in Ponte Vedra, Florida and our European office is in North Berwick, Scotland.  </p>
+  <a href="directory_detail.php?b=119867" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>International Golf Logistics</h3>
+        <p id="business_description">
+            International Golf Logistics LLC is a full-service travel and logistics provider serving professional athletes, marketers and Corporations on a global level. Let us navigate the complex world of professional logistics allowing you to maximize your business and performance outcomes. Our core values are Experience, Trust, Value for Money and Excellence. Founded in 2016, we’re headquartered in Ponte Vedra, Florida and our European office is in North Berwick, Scotland.        </p>
+        <div id="business_info">
+            <span>Contact Name: Erin  Sliwinski</span><br />
+            <span>Phone: 904-643-2188</span><br />
+            <span>Email: <a href="mailto: erin@igl.golf">erin@igl.golf</a></span><br />
+            <span>Website: <a href="http://www.igl.golf" target="_blank">www.igl.golf</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/130 Corridor Road  Ponte Vedra Beach, FL USA 32004" target="_blank">130 Corridor Road  Ponte Vedra Beach, FL USA 32004</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="business">
+  <!-- <div class="business_name">
+    
+INTERNATIONAL PROFESSIONAL TRAINING CERTIFICATION  </div>
+  <p class="business_description">
+   
+ IPTC is an official Non-Profit organization. Founded in 1997, the International Professional Training Certification -IPTC with a long experience, existed to support the International Federations/Organizations.  </p>
+  <a href="directory_detail.php?b=119894" class="button">Details</a> -->
+
+    <div class="business-content">
+        <h3>INTERNATIONAL PROFESSIONAL TRAINING CERTIFICATION</h3>
+        <p id="business_description">
+            IPTC is an official Non-Profit organization. Founded in 1997, the International Professional Training Certification -IPTC with a long experience, existed to support the International Federations/Organizations.        </p>
+        <div id="business_info">
+            <span>Contact Name: MEHDI SALMAN POUR</span><br />
+            <span>Phone: +905364533188</span><br />
+            <span>Email: <a href="mailto: ipt.certificate@gmail.com">ipt.certificate@gmail.com</a></span><br />
+            <span>Website: <a href="http://www.iptcertification.com" target="_blank">www.iptcertification.com</a></span><br />
+            <span>Address: <a href="https://www.google.com/maps/place/Mahmutlar  Alanya, NA TUR 10604" target="_blank">Mahmutlar  Alanya, NA TUR 10604</a></span>
+        </div>
+    </div>
+    <div class="post_image">
+    </div>
+    <div class="clearfix"></div>
+</div>
+        <br/>
+        <br/>
+        <a href='?search=&page=20' class='button' style='float:left;'>Previous Page</a><a href='?search=&page=22' class='button' style='float:right';>Next Page</a>
+            <div class="clearfix"></div>
+    <br/>
+    <br/>
+</div>
+
+<div id="footer">
+  <img id="footer_logo" src="images/chamber_logo_color.png" />
+  <br />
+  <br />
+  <div id="mission">
+    The mission of the Chamber is to improve the business climate and quality of
+    living in the New York Metropolitan Area for businesses, workers, residents
+    and visitors.
+  </div>
+  <br />
+  <div id="contact_info">
+    Greater New York Chamber of Commerce <br />
+    20 West 44th Street, 4th Floor <br />
+    New York City, NY 10036 <br  />
+    Phone: 212-CHAMBER (212-686-7220) <br />
+    <br />
+    <div id="buttons">
+      <a class="button" href="./membership_application.php">Join</a>
+      <a class="button" href="./contact.php">Contact Us</a>
+      <a class="button" href="https://visitor.r20.constantcontact.com/manage/optin?v=001kkqO0FxDKZRRxT3tTJHPTwiaTTbEIELDwsv2rFK1UQGdzHjGL91cnsY8moIs8p5BCsv7DgOP7iyR0vpIN5n9k58345gJY9VizlyKZqi-0OGDt9gDxpq4AtYH7fX0KIKyg1gXFEVJtib71SJsPGIUl28BaEhHTtjy">Sign Up For Email Updates</a>
+      <a class="button" href="./privacy.php">Privacy Policy</a>
+    </div>
+  </div>
+  <br />
+  <div id="sitemap">
+    <a href="./directory.php">Business Directory</a> |
+    <a href="./join.php">Benefits</a> |
+    <a href="./news.php">News</a> |
+    <a href="./calendar.php">Events</a> |
+    <a href="./bulletin_board.php">Bulletin Board</a> |
+    <a href="./jobs.php">Job Listings</a> |
+    <a href="./profiles.php">Member Profiles</a> |
+    <a href="./tv_watch.php">Chamber TV</a> |
+    <a href="./board.php">About Us</a>
+  </div>
+</div>
+<div id="copyright">
+  <div id="icons">
+    <a href="https://www.facebook.com/NYChamber/"><img src="icons/facebook.png" /></a>
+    <a href="https://www.instagram.com/nychamber/"><img src="icons/instagram.png" /></a>
+    <a href="https://www.linkedin.com/company/greater-new-york-chamber-of-commerce/?viewAsMember=true"><img src="icons/linkedin.png" /></a>
+    <a href="https://twitter.com/nychamber?lang=en"><img src="icons/twitter.png" /></a> <br />
+  </div>
+  &copy; 2021, Greater New York Chamber of Commerce <br />
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+
+    <script>
+        var cat = all;
+        document.getElementById("category").value = cat;
+    </script>
+</body>
+</html>
