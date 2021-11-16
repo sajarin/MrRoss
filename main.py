@@ -47,5 +47,3 @@ if (user_in == 1):
     for subdirectory in directory: 
         new_url = root_url + subdirectory.a["href"]
         deeper(new_url, 0)
-
-

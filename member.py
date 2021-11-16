@@ -44,4 +44,3 @@ def page(url, num):
                 business_number + "," + 
                 business_email + "," + 
                 business_website + "\n")
-        
